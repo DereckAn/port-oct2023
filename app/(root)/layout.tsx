@@ -10,7 +10,8 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
 
   return (
     <div>
-      <Sidebar showMenu={showMenu}/>
+      {/* // note: showMenu y setShowMenu es para las sfuncionalidades del boton  */}
+      <Sidebar showMenu={showMenu} onclose={()=> setShowMenu(false)}/> 
       <header>
         {/* // note: ponemos el boton aqui para que se vea en todas las paginas */}
         <button type="button"> 

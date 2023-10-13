@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("bg-dark text-gray-300", font.className)}>
-        <main className="pl-[13vw] container mx-auto py-5 lg:py-8 ">
+        <main className="lg:pl-[13vw] container mx-auto py-5 lg:py-8 ">
           {children}
         </main>
       </body>
