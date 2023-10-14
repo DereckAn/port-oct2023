@@ -12,12 +12,10 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
     <div>
       {/* // note: showMenu y setShowMenu es para las sfuncionalidades del boton  */}
       <Sidebar showMenu={showMenu} onclose={()=> setShowMenu(false)}/> 
-      <header>
         {/* // note: ponemos el boton aqui para que se vea en todas las paginas */}
-        <button type="button"> 
-          <RiMenu2Line onClick={() => setShowMenu(true)}/>
+        <button type="button" className="lg:hidden "> 
+          <RiMenu2Line onClick={() => setShowMenu(true)} size={20}/>
         </button>
-      </header>
       {children}
     </div>
   );

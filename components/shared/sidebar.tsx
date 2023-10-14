@@ -17,7 +17,7 @@ const Sidebar = ({ showMenu, onclose }: SidebarProps) => {
     <>
       <aside
         className={cn(
-          "fixed top-0 bg-dark border-r border-gray-500/30  w-[70vw] md:w-[30vw]  lg:w-[13vw] h-full transition-all duration-300 ease-in-out z-50",
+          "fixed top-0 lg:left-0 bg-dark border-r border-gray-500/30  w-[70vw] md:w-[30vw]  lg:w-[15vw] h-full transition-all duration-300 ease-in-out z-50",
           showMenu ? "left-0" : "-left-full"
         )}
       >
@@ -35,7 +35,7 @@ const Sidebar = ({ showMenu, onclose }: SidebarProps) => {
         </section>
       </aside>
       <div onClick={onclose} 
-      className={cn("fixed bg-black/20 z-40 left-0 top-0 w-full h-full ", showMenu ? "block" : "hidden")}></div>
+      className={cn("fixed bg-black/20 z-40 left-0 top-0 w-full h-full lg:hidden ", showMenu ? "block" : "hidden")}></div>
     </>
   );
 };
