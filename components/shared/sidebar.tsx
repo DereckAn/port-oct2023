@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { cn } from "@/libs/utils";
 import MainMenu from "./main-menu";
+import { information } from "@/assets/constants";
 
 // note: se le añade una propiedad al componente
 // note: Entre mas anadamos, mas propiedades va a pedir al llamarlo
@@ -26,16 +27,21 @@ const Sidebar = ({ showMenu, onclose }: SidebarProps) => {
             href="/"
             className="text-2xl text-white hover:text-primary transition-colors duration-300"
           >
-            Dereck Angeles
+            {information.name}
           </Link>
-          <h3 className=" font-light text-gray-400">Software Engineer</h3>
+          <h3 className=" font-light text-gray-400">{information.degree}</h3>
         </section>
         <section>
           <MainMenu />
         </section>
       </aside>
-      <div onClick={onclose} 
-      className={cn("fixed bg-black/20 z-40 left-0 top-0 w-full h-full lg:hidden ", showMenu ? "block" : "hidden")}></div>
+      <div
+        onClick={onclose}
+        className={cn(
+          "fixed bg-black/20 z-40 left-0 top-0 w-full h-full lg:hidden ",
+          showMenu ? "block" : "hidden"
+        )}
+      ></div>
     </>
   );
 };

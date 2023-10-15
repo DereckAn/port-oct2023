@@ -1,3 +1,9 @@
+import HeroSection from "./serctions/hero-sections";
+
 export default function Home() {
-  return <h1>Pagina Home </h1>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }

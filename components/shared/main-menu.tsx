@@ -1,35 +1,9 @@
+import { routes } from "@/assets/constants";
 import { cn } from "@/libs/utils";
 import Link from "next/link";
-import { RiHome3Line, RiBriefcase2Line, RiUserLine, RiMegaphoneLine  , RiEdit2Line} from "react-icons/ri";
 
 const MainMenu = () => {
-  const routes = [
-    {
-      name: "Home",
-      path: "/",
-      icon: RiHome3Line,
-    },
-    {
-      name: "Work",
-      path: "/work",
-      icon: RiBriefcase2Line,
-    },
-    {
-      name: "About",
-      path: "/about",
-      icon: RiUserLine,
-    },
-    {
-      name: "Projects",
-      path: "/projects",
-      icon: RiEdit2Line,
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-      icon: RiMegaphoneLine,
-    },
-  ];
+  
 
   return (
     <ul>
