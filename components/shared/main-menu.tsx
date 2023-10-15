@@ -3,7 +3,6 @@ import { cn } from "@/libs/utils";
 import Link from "next/link";
 
 const MainMenu = () => {
-  
 
   return (
     <ul>

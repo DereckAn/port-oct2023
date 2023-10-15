@@ -19,8 +19,7 @@ const Button = ({
       type={type}
       onClick={onClick}
       className={cn(
-        "py-3 px-4  border border-primary text-primary hover:bg-primary/10 transition-colors duration-300" +
-          "rounded-lg w-full font-medium ",
+        "py-3 px-4  border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 rounded-lg w-full font-medium ",
         className
       )}
     >
