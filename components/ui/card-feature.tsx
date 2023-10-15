@@ -10,7 +10,7 @@ interface CardFeaturedProps {
 
 const CardFeatured = ({href, image, category, title} : CardFeaturedProps) => {
   return (
-    <Link href={href} className="p-5 group">
+    <Link href={href} className="group">
       <div className="relative w-full h-80 mb-5 overflow-hidden rounded-xl">
         <Image
           src={image}
