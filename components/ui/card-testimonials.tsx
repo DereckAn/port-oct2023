@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface CardTestimonialsProps {
     message: string;
-    image: string;
+    image: StaticImageData;
     name: string;
     job: string;
 }

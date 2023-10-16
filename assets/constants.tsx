@@ -88,10 +88,53 @@ export const feacturedWork = [
     image: cerdo,
     href: "/",
   },
+];
+
+export const testimonials = [
   {
-    title: "hola",
-    category: "hola",
+    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+    job: "hola",
+    image: cerdo,
+    name: "Dereck Angeles",
+  },
+  {
+    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+    job: "hola",
+    image: cerdo,
+    name: "Dereck Angeles",
+  },
+  {
+    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+    job: "hola",
+    image: cerdo,
+    name: "Dereck Angeles",
+  },
+  {
+    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+    job: "hola",
+    image: cerdo,
+    name: "Dereck Angeles",
+  },
+];
+
+
+export const ventures = [
+  {
+    title: "hola1",
+    description: "hola",
     image: cerdo,
     href: "/",
   },
-];
+  {
+    title: "hola1",
+    description: "hola",
+    image: cerdo,
+    href: "/",
+  },
+  {
+    title: "hola1",
+    description: "hola",
+    image: cerdo,
+    href: "/",
+  },
+]
