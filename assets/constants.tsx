@@ -8,7 +8,7 @@ import {
   RiEdit2Line,
 } from "react-icons/ri";
 import { GrGithub, GrLinkedinOption } from "react-icons/gr";
-import { cerdo } from "@/assets";
+import { cerdo, smile2 } from "@/assets";
 
 export const information = {
   name: "Dereck Angeles",
@@ -137,4 +137,42 @@ export const ventures = [
     image: cerdo,
     href: "/",
   },
+]
+
+export const blogs = [
+  {
+    title: "como conectar ble to react",
+    category: "tecnology",
+    image: smile2,
+    href: "/",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react",
+    category: "tecnology",
+    image: smile2,
+    href: "/",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react",
+    category: "tecnology",
+    image: smile2,
+    href: "/",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react",
+    category: "tecnology",
+    image: smile2,
+    href: "/",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react",
+    category: "tecnology",
+    image: smile2,
+    href: "/",
+    age: "4 semans ago",
+  }
 ]
