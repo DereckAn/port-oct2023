@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/shared/footer";
 import Sidebar from "@/components/shared/sidebar";
 import ButtonIcon from "@/components/ui/button-icon";
 import { ReactNode, useState } from "react";
@@ -21,6 +22,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
       />
 
       {children}
+      <Footer></Footer>
     </div>
   );
 };

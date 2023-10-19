@@ -17,10 +17,10 @@ const CardBlog = ({
   age,
 }: CardBlogProps) => {
   return (
-    <Link href={href} target="_blanck" className="group flex gap-5 items-center">
+    <Link href={href} target="_blanck" className="group flex flex-col md:flex-row gap-5 items-center">
       <div className="relative w-56 h-40 rounded-xl mb-5 overflow-hidden ">
         <Image
-          src={image}
+          src={image} 
           alt="hola"
           fill
           className="object-cover rounded-xl group-hover:scale-110 transition-all duration-300 "
