@@ -74,7 +74,7 @@ export const feacturedWork = [
     title: "hola1",
     category: "hola",
     image: cerdo,
-    href: "/",
+    href: "/work/details",
   },
   {
     title: "hola",
