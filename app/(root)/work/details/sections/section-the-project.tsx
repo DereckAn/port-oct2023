@@ -3,16 +3,16 @@ import Container from "@/components/ui/container";
 import Subtitle from "@/components/ui/subtitle";
 import Image from "next/image";
 
-const SectionMyRole = () => {
+const SectionTheProject = () => {
   return (
-    <section id="Section My Role" className="border-b border-gray-500/30">
+    <section id="Section The Project" className="border-b border-gray-500/30">
       <Container>
         <div className="flex flex-col sm:flex-row sm:items-start justify-between mb-10">
-          <Subtitle subtitle="My Role" className="my-0" />
+          <Subtitle subtitle="The Project" className="my-0 " />
           <ul className="space-y-8">
-            <li className="xl:max-w-2xl lg:max-w-sm">
+            <li className="xl:max-w-2xl lg:max-w-sm ">
               <h4 className="text-xl text-white font-medium ">
-                Responsabilities
+                Challenges
               </h4>
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -23,7 +23,7 @@ const SectionMyRole = () => {
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
               <h4 className="text-xl text-white font-medium ">
-                Responsabilities
+                Outcome
               </h4>
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -34,13 +34,21 @@ const SectionMyRole = () => {
             </li>
           </ul>
         </div>
-        <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
+        <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl mb-10">
             <Image src={cerdo} alt="image" fill className="object-cover rounded-xl "/>
 
+        </div>
+        <div className="flex items-center justify-between gap-10">
+            <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
+                <Image src={cerdo } alt="image" fill className="object-cover rounded-xl "/>
+            </div>
+            <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
+                <Image src={cerdo } alt="image" fill className="object-cover rounded-xl "/>
+            </div>
         </div>
       </Container>
     </section>
   );
 };
 
-export default SectionMyRole;
+export default SectionTheProject;

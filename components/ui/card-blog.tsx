@@ -17,7 +17,8 @@ const CardBlog = ({
   age,
 }: CardBlogProps) => {
   return (
-    <Link href={href} target="_blanck" className="group flex flex-col md:flex-row gap-5 items-center">
+    <Link href={href} className="group flex flex-col md:flex-row gap-5 items-center"> 
+    {/* //target="_blank"  es para abrir ptra pestana  */}
       <div className="relative w-56 h-40 rounded-xl mb-5 overflow-hidden ">
         <Image
           src={image} 

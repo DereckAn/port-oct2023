@@ -19,7 +19,7 @@ const CardFeatured = ({href, image, category, title} : CardFeaturedProps) => {
           className="object-cover rounded-xl group-hover:opacity-80 group-hover:scale-110 transition-all duration-300 ease-in-out"
         />
       </div>
-      <h5 className="text-gray-500/30 uppercase tracking-widest font-medium">
+      <h5 className="text-gray-500/30 uppercase tracking-widest text-xs">
         {category}
       </h5>
       <h3 className="text-white text-xl group-hover:text-primary transition-colors">

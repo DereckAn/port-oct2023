@@ -58,8 +58,13 @@ export const routes = [
     icon: RiUserLine,
   },
   {
-    name: "Projects",
-    path: "/projects",
+    name: "Ventures",
+    path: "/ventures",
+    icon: RiUserLine,
+  },
+  {
+    name: "Blog",
+    path: "/blog",
     icon: RiEdit2Line,
   },
   {
@@ -144,35 +149,35 @@ export const blogs = [
     title: "como conectar ble to react",
     category: "tecnology",
     image: smile2,
-    href: "/",
+    href: "/blog/details",
     age: "4 semans ago",
   },
   {
     title: "como conectar ble to react",
     category: "tecnology",
     image: smile2,
-    href: "/",
+    href: "/blog/details",
     age: "4 semans ago",
   },
   {
     title: "como conectar ble to react",
     category: "tecnology",
     image: smile2,
-    href: "/",
+    href: "/blog/details",
     age: "4 semans ago",
   },
   {
     title: "como conectar ble to react",
     category: "tecnology",
     image: smile2,
-    href: "/",
+    href: "/blog/details",
     age: "4 semans ago",
   },
   {
     title: "como conectar ble to react",
     category: "tecnology",
     image: smile2,
-    href: "/",
+    href: "/blog/details",
     age: "4 semans ago",
   }
 ]
