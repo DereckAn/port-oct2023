@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import SectionMyRole from "./sections/section-my-role";
 import SectionHeader from "./sections/seection-header";
+import SectionTheProject from "./sections/section-the-project";
 
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ const DetailsWorkPage = () => {
     <main>
       <SectionHeader />
       <SectionMyRole />
+      <SectionTheProject />
     </main>
   );
 };

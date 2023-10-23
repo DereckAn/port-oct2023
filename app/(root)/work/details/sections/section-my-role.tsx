@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const SectionMyRole = () => {
   return (
-    <section id="Section Header" className="border-b border-gray-500/30">
+    <section id="Section My Role" className="border-b border-gray-500/30">
       <Container>
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-10">
-          <Subtitle subtitle="My Role" />
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-10">
+          <Subtitle subtitle="My Role" className="my-0" />
           <ul className="space-y-8">
             <li className="max-w-2xl">
               <h4 className="text-xl text-white font-medium ">
