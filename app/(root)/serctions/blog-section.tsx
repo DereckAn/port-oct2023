@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 const BlogSection = () => {
   const router = useRouter();
   return (
-    <section id={"featuredWork"} className="border-b border-gray-500/30">
+    <section id={"Blog Section"} className="border-b border-gray-500/30">
       <Container>
         <Title title={"Blog"} />
         <ListBlog />
