@@ -7,8 +7,24 @@ import {
   RiMegaphoneLine,
   RiEdit2Line,
 } from "react-icons/ri";
-import { GrGithub, GrLinkedinOption } from "react-icons/gr";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import { SiFastapi, SiGnubash } from "react-icons/si";
+import {
+  BiLogoJavascript,
+  BiLogoFlutter,
+  BiLogoReact,
+  BiLogoPython,
+  BiLogoTailwindCss,
+  BiLogoJava,
+} from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
+import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
+import { BsFiletypeCss, BsFiletypeSql } from "react-icons/bs";
 import { cerdo, smile2 } from "@/assets";
+
+
+
+
 
 export const information = {
   name: "Dereck Angeles",
@@ -122,7 +138,6 @@ export const testimonials = [
   },
 ];
 
-
 export const ventures = [
   {
     title: "hola1",
@@ -142,7 +157,7 @@ export const ventures = [
     image: cerdo,
     href: "/",
   },
-]
+];
 
 export const blogs = [
   {
@@ -179,5 +194,60 @@ export const blogs = [
     image: smile2,
     href: "/blog/details",
     age: "4 semans ago",
-  }
-]
+  },
+];
+
+export const tecnologies = [
+  {
+    name: "HTML",
+    icon: AiOutlineHtml5,
+  },
+  {
+    name: "CSS",
+    icon: BsFiletypeCss,
+  },
+  {
+    name: "Javascript",
+    icon: BiLogoJavascript,
+  },
+  {
+    name: "Java",
+    icon: BiLogoJava,
+  },
+  {
+    name: "Python",
+    icon: BiLogoPython,
+  },
+  {
+    name: "FastAPI",
+    icon: SiFastapi,
+  },
+  {
+    name: "React",
+    icon: BiLogoReact,
+  },
+  {
+    name: "NextJS",
+    icon: TbBrandNextjs,
+  },
+  {
+    name: "Flutter",
+    icon: BiLogoFlutter,
+  },
+  {
+    name: "SQL",
+    icon: BsFiletypeSql,
+  },
+  {
+    name: "Bash",
+    icon: SiGnubash,
+  },
+  {
+    name: "Linux",
+    icon: GrArchlinux,
+  },
+  {
+    name: "TailwindCSS",
+    icon: BiLogoTailwindCss,
+  },
+];
