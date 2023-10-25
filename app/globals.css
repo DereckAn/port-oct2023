@@ -9,6 +9,14 @@ body,
 :root{
   height: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 00%;
+}
+::-webkit-scrollbar-thumb {
+  background: '#000';
+  border-radius: 10px;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

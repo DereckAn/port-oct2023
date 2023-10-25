@@ -7,7 +7,7 @@ const SectionMyRole = () => {
   return (
     <section id="Section My Role" className="border-b border-gray-500/30">
       <Container>
-        <div className="flex flex-col sm:flex-row sm:items-start justify-between mb-10">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5 mb-10">
           <Subtitle subtitle="My Role" className="my-0" />
           <ul className="space-y-8">
             <li className="xl:max-w-2xl lg:max-w-sm">

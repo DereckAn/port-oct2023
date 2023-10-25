@@ -4,7 +4,7 @@ import Title from "@/components/ui/title";
 
 const BlogPage = () => {
     return ( 
-        <main className="border-b border-gray-500/30">
+        <main className=" pb-10 border-b border-gray-500/30">
             <Container>
                 <Title title={"Blog"} />
                 <ListBlog />
