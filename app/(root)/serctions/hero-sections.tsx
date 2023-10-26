@@ -23,11 +23,19 @@ const HeroSection = () => {
             <h1 className="text-4xl  text-white mb-5">{information.titulo}</h1>
             <p className="text-gray-500 ">{information.description}</p>
           </div>
-          <div className="flex items-center gap-3 ">
-            {information.socialmedia.map((item) => (
-              <ButtonSolcialMedia key={item.href} {...item} />
-            ))}
-            {/* {socialMedia.map((item) => <ButtonSolcialMedia key={item.href} href={item.href}  icon={item.icon}/>)} // note: podemos cambiar como hacemos el map. forma larga y forma corta*/}
+          <div className="flex lg:flex-row flex-col justify-between">
+            <div className="flex items-center gap-3 ">
+              {information.socialmedia.map((item) => (
+                <ButtonSolcialMedia key={item.href} {...item} />
+              ))}
+              {/* {socialMedia.map((item) => <ButtonSolcialMedia key={item.href} href={item.href}  icon={item.icon}/>)} // note: podemos cambiar como hacemos el map. forma larga y forma corta*/}
+            </div>
+            <a
+              href=""
+              className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
+            >
+              Resume
+            </a>
           </div>
         </div>
         <ScrollingComponent />

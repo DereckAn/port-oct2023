@@ -2,22 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 html,
 body,
-:root{
+:root {
   height: 100%;
 }
 
-.logos{
-  overflow: hidden; 
+.logos {
+  overflow: hidden;
   white-space: nowrap;
 }
 
 .logos-slide {
   display: inline-block;
-  animation: logos-scroll 15s  infinite linear;
+  animation: logos-scroll 15s infinite linear;
 }
 
 .logos-slide svg {
@@ -25,6 +23,37 @@ body,
   margin: 0 40px;
   display: inline-block;
   /* border: 1px solid #ccc; */
+}
+
+.blinking {
+  animation: blinking 5s infinite;
+}
+
+@keyframes blinking {
+  0% {
+    background-color: #fca311;
+    color: #fff;
+    border-color: #121212;
+  }
+  50% {
+    background-color: #121212;
+    color: #fca311;
+    border-color: #fca311;
+  }
+  100% {
+    background-color: #fca311;
+    color: #fff;
+    border-color: #121212;
+  }
+}
+
+.blinking:hover {
+  animation: none;
+  background-color: #fca311;
+  color: aliceblue;
+  border: #fca311;
+  scale: 1.2;
+
 }
 
 @keyframes logos-scroll {
