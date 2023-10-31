@@ -3,17 +3,26 @@
 import Title from "@/components/ui/title";
 import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
 import { cerdo } from "@/assets";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Container from "@/components/ui/container";
 
-const SectionHeader = () => {
+interface SectionHeaderProps {
+  hola: {
+    href: string;
+    image: StaticImageData;
+    category: string;
+    title: string;
+  };
+};
+
+const SectionHeader = ({hola} : SectionHeaderProps) => {
   return (
     <section
       id={"Section Header"}
       className="border-b border-gray-500/30 py-10"
     >
       <Container>
-        <Title title={"Mindful Blog Mobile App"} className="mb-5 " />
+        <Title title={`${hola.title}`} className="mb-5 " />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit
@@ -36,7 +45,7 @@ const SectionHeader = () => {
         </div>
         <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
           <Image
-            src={cerdo}
+            src={`${hola.image}`}
             fill
             className="object-cover rounded-xl"
             alt={"asdfghjkl"}

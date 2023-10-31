@@ -95,19 +95,19 @@ export const feacturedWork = [
     title: "hola1",
     category: "hola",
     image: cerdo,
-    href: "/work/details",
+    href: "/details",
   },
   {
     title: "hola",
     category: "hola",
     image: cerdo,
-    href: "/",
+    href: "/details2",
   },
   {
     title: "hola",
     category: "hola",
     image: cerdo,
-    href: "/",
+    href: " /details3",
   },
 ];
 
