@@ -2,27 +2,27 @@
 
 import Title from "@/components/ui/title";
 import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
-import { cerdo } from "@/assets";
 import Image, { StaticImageData } from "next/image";
 import Container from "@/components/ui/container";
+import {cerdo} from "@/assets/index";
 
-interface SectionHeaderProps {
-  hola: {
-    href: string;
-    image: StaticImageData;
-    category: string;
-    title: string;
-  };
-};
+// interface SectionHeaderProps {
+//   hola: {
+//     href: string;
+//     image: StaticImageData;
+//     category: string;
+//     title: string;
+//   };
+// };
 
-const SectionHeader = ({hola} : SectionHeaderProps) => {
+const SectionHeader = () => {
   return (
     <section
       id={"Section Header"}
       className="border-b border-gray-500/30 py-10"
     >
       <Container>
-        <Title title={`${hola.title}`} className="mb-5 " />
+        <Title title={`Conectar bluetooth con celular `} className="mb-5 " />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit
@@ -45,7 +45,7 @@ const SectionHeader = ({hola} : SectionHeaderProps) => {
         </div>
         <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
           <Image
-            src={`${hola.image}`}
+            src={cerdo}
             fill
             className="object-cover rounded-xl"
             alt={"asdfghjkl"}

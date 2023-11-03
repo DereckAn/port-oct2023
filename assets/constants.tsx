@@ -20,19 +20,18 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql } from "react-icons/bs";
-import { cerdo, smile2 } from "@/assets";
+import { cerdo, port2, smile2 } from "@/assets";
 
-
-
-
+//I'm an iOS Developer with interest in Machine Learning and low-level graphics.
+// I am an avid Snowboarder, ping me if you have a ride in mind. I, also love history and maps! Check my projects out.
 
 export const information = {
   name: "Dereck Angeles",
   degree: "Computer Science",
   titulo:
-    "Hey, I'm Dereck - I'm a Software Engineer ... poner mas cosas perono tantas ",
+    "Hey, I'm Dereck - I'm a Software Engineer",
   description:
-    "Soy un estudiante de computer science. estoy por graduarme del college y poner mas cosas aqui",
+    "With ability to build web and mobil aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
   socialmedia: [
     {
       name: "Github",
@@ -92,22 +91,46 @@ export const routes = [
 
 export const feacturedWork = [
   {
-    title: "hola1",
-    category: "hola",
-    image: cerdo,
+    title: "Portafolio",
+    category: "Web",
+    image: port2,
     href: "/details",
   },
   {
-    title: "hola",
-    category: "hola",
+    title: "Spotify",
+    category: "Web",
     image: cerdo,
     href: "/details2",
   },
   {
-    title: "hola",
-    category: "hola",
+    title: "Chat App",
+    category: "Mobile",
     image: cerdo,
-    href: " /details3",
+    href: "/details3",
+  },
+  {
+    title: "Netflix P",
+    category: "Mobile",
+    image: cerdo,
+    href: "/details3",
+  },
+  {
+    title: "Chat App",
+    category: "Mobile",
+    image: cerdo,
+    href: "/details3",
+  },
+  {
+    title: "Chat App",
+    category: "Mobile",
+    image: cerdo,
+    href: "/details3",
+  },
+  {
+    title: "Chat App",
+    category: "Mobile",
+    image: cerdo,
+    href: "/details3",
   },
 ];
 

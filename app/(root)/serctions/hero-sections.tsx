@@ -31,7 +31,7 @@ const HeroSection = () => {
               {/* {socialMedia.map((item) => <ButtonSolcialMedia key={item.href} href={item.href}  icon={item.icon}/>)} // note: podemos cambiar como hacemos el map. forma larga y forma corta*/}
             </div>
             <a
-              href=""
+              href="/portafolio_oct_2023/assets/constants.tsx" download={true}
               className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
             >
               Resume

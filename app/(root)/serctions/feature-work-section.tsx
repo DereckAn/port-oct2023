@@ -14,7 +14,7 @@ const FeactuWorkSection = () => {
             <Container>
                 <Title title={"Featured Work"} />
                 {/* // note lo hice componente porque lo voy a usar en la pagina de work */}
-                 <ListFeaturedWork />
+                 <ListFeaturedWork number={3} />
                 <Button label="View All Projects" onClick={()=>router.push('/work')}/>
             </Container>
         </section>
