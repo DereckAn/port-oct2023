@@ -8,7 +8,7 @@ import {
   RiEdit2Line,
 } from "react-icons/ri";
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { SiFastapi, SiGnubash } from "react-icons/si";
+import { SiDart, SiFastapi, SiGnubash } from "react-icons/si";
 import {
   BiLogoJavascript,
   BiLogoFlutter,
@@ -16,11 +16,26 @@ import {
   BiLogoPython,
   BiLogoTailwindCss,
   BiLogoJava,
+  BiLogoTypescript,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
-import { BsFiletypeCss, BsFiletypeSql } from "react-icons/bs";
-import { cerdo, chat, port2, smile2, spotify } from "@/assets/images";
+import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
+import {
+  cerdo,
+  chat,
+  dessertshop,
+  ensign,
+  expence,
+  landing,
+  lds,
+  lumos,
+  math,
+  oldport2,
+  port2,
+  smile2,
+  spotify,
+} from "@/assets/images";
 
 //I'm an iOS Developer with interest in Machine Learning and low-level graphics.
 // I am an avid Snowboarder, ping me if you have a ride in mind. I, also love history and maps! Check my projects out.
@@ -108,27 +123,33 @@ export const feacturedWork = [
     href: "/details3",
   },
   {
-    title: "Netflix P",
-    category: "Mobile",
-    image: cerdo,
+    title: "Old Portafolio",
+    category: "Web",
+    image: oldport2,
     href: "/details3",
   },
   {
-    title: "Chat App",
-    category: "Mobile",
-    image: cerdo,
+    title: "Math with Python",
+    category: "Desktop",
+    image: math,
     href: "/details3",
   },
   {
-    title: "Chat App",
-    category: "Mobile",
-    image: cerdo,
+    title: "Landing Page",
+    category: "Web",
+    image: landing,
     href: "/details3",
   },
   {
-    title: "Chat App",
+    title: "Dessert Chop",
+    category: "Desktop",
+    image: dessertshop,
+    href: "/details3",
+  },
+  {
+    title: "Expence Tracker",
     category: "Mobile",
-    image: cerdo,
+    image: expence,
     href: "/details3",
   },
 ];
@@ -162,22 +183,22 @@ export const testimonials = [
 
 export const ventures = [
   {
-    title: "hola1",
-    description: "hola",
-    image: cerdo,
-    href: "/",
+    title: "Math Teacher Assistant",
+    description: "Ensign College",
+    image: ensign,
+    href: "https://www.ensign.edu/",
   },
   {
-    title: "hola1",
-    description: "hola",
-    image: cerdo,
-    href: "/",
+    title: "Custodial",
+    description: "Missionary Training Center",
+    image: lds,
+    href: "https://provo.mtc.byu.edu/",
   },
   {
-    title: "hola1",
-    description: "hola",
-    image: cerdo,
-    href: "/",
+    title: "Custodial",
+    description: "Lumos Language School",
+    image: lumos,
+    href: "https://lumos.edu/",
   },
 ];
 
@@ -271,5 +292,17 @@ export const tecnologies = [
   {
     name: "TailwindCSS",
     icon: BiLogoTailwindCss,
+  },
+  {
+    name: "Git",
+    icon: BsGit,
+  },
+  {
+    name: "Dart",
+    icon: SiDart,
+  },
+  {
+    name: "Typescript",
+    icon: BiLogoTypescript,
   },
 ];
