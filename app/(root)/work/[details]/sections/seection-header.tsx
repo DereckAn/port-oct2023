@@ -4,7 +4,7 @@ import Title from "@/components/ui/title";
 import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
 import Image, { StaticImageData } from "next/image";
 import Container from "@/components/ui/container";
-import {cerdo} from "@/assets/index";
+import { cerdo } from "@/assets/images/index";
 
 // interface SectionHeaderProps {
 //   hola: {

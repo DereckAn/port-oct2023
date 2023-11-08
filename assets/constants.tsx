@@ -20,7 +20,7 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql } from "react-icons/bs";
-import { cerdo, port2, smile2 } from "@/assets";
+import { cerdo, chat, port2, smile2, spotify } from "@/assets/images";
 
 //I'm an iOS Developer with interest in Machine Learning and low-level graphics.
 // I am an avid Snowboarder, ping me if you have a ride in mind. I, also love history and maps! Check my projects out.
@@ -28,8 +28,7 @@ import { cerdo, port2, smile2 } from "@/assets";
 export const information = {
   name: "Dereck Angeles",
   degree: "Computer Science",
-  titulo:
-    "Hey, I'm Dereck - I'm a Software Engineer",
+  titulo: "Hey, I'm Dereck - I'm a Software Engineer",
   description:
     "With ability to build web and mobil aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
   socialmedia: [
@@ -99,13 +98,13 @@ export const feacturedWork = [
   {
     title: "Spotify",
     category: "Web",
-    image: cerdo,
+    image: spotify,
     href: "/details2",
   },
   {
     title: "Chat App",
     category: "Mobile",
-    image: cerdo,
+    image: chat,
     href: "/details3",
   },
   {

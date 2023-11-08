@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { smile2 } from "@/assets/index";
+import { smile2 } from "@/assets/images/index";
 import ButtonSolcialMedia from "@/components/ui/button-social-media";
 import { information } from "@/assets/constants";
 import Container from "@/components/ui/container";
@@ -23,22 +23,22 @@ const HeroSection = () => {
             <h1 className="text-4xl  text-white mb-5">{information.titulo}</h1>
             <p className="text-gray-500 ">{information.description}</p>
           </div>
-          <div className="flex lg:flex-row flex-col justify-between">
+          <div className="flex lg:flex-row flex-col justify-between ">
             <div className="flex items-center gap-3 ">
               {information.socialmedia.map((item) => (
                 <ButtonSolcialMedia key={item.href} {...item} />
               ))}
               {/* {socialMedia.map((item) => <ButtonSolcialMedia key={item.href} href={item.href}  icon={item.icon}/>)} // note: podemos cambiar como hacemos el map. forma larga y forma corta*/}
             </div>
-            <div className="relative m-1 ">
+            <div className="relative ">
               <a
-              href="/portafolio_oct_2023/assets/constants.tsx" download={'Dereck-Resume.pdf'}
-              className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
-            >
-              Resume
-            </a>
+                href="/portafolio_oct_2023/assets/constants.tsx"
+                download={"Dereck-Resume.pdf"}
+                className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
+              >
+                Resume
+              </a>
             </div>
-            
           </div>
         </div>
         <ScrollingComponent />

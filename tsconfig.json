@@ -27,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "assets/index.tsx",
+    "assets/images/index.tsx",
     "components/ui/tecnologies-section.tsx"
   ],
   "exclude": ["node_modules"]

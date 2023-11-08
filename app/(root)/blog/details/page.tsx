@@ -1,4 +1,4 @@
-import { cerdo } from "@/assets";
+import { cerdo } from "@/assets/images";
 import Badge from "@/components/ui/badge";
 import Container from "@/components/ui/container";
 import Title from "@/components/ui/title";

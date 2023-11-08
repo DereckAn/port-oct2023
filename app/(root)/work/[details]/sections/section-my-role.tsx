@@ -1,4 +1,4 @@
-import { cerdo } from "@/assets";
+import { cerdo } from "@/assets/images";
 import Container from "@/components/ui/container";
 import Subtitle from "@/components/ui/subtitle";
 import Image from "next/image";
@@ -35,8 +35,12 @@ const SectionMyRole = () => {
           </ul>
         </div>
         <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
-            <Image src={cerdo} alt="image" fill className="object-cover rounded-xl "/>
-
+          <Image
+            src={cerdo}
+            alt="image"
+            fill
+            className="object-cover rounded-xl "
+          />
         </div>
       </Container>
     </section>
