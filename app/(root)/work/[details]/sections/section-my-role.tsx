@@ -1,9 +1,14 @@
-import { cerdo } from "@/assets/images";
 import Container from "@/components/ui/container";
 import Subtitle from "@/components/ui/subtitle";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-const SectionMyRole = () => {
+interface SectionMyRoleProps {
+  responsabiliteies: string;
+  technologies: string;
+  imageR: StaticImageData;
+};
+
+const SectionMyRole = ( {responsabiliteies, technologies, imageR } : SectionMyRoleProps ) => {
   return (
     <section id="Section My Role" className="border-b border-gray-500/30">
       <Container>
@@ -15,10 +20,7 @@ const SectionMyRole = () => {
                 Responsabilities
               </h4>
               <p className="text-sm text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci accusantium sapiente debitis porro doloribus numquam,
-                autem quasi maxime placeat aperiam et aliquam ab, reprehenderit
-                laborum atque optio aut quibusdam voluptate?
+                {responsabiliteies}
               </p>
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
@@ -26,17 +28,14 @@ const SectionMyRole = () => {
                 Responsabilities
               </h4>
               <p className="text-sm text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Adipisci accusantium sapiente debitis porro doloribus numquam,
-                autem quasi maxime placeat aperiam et aliquam ab, reprehenderit
-                laborum atque optio aut quibusdam voluptate?
+                {technologies}
               </p>
             </li>
           </ul>
         </div>
         <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
           <Image
-            src={cerdo}
+            src={imageR}
             alt="image"
             fill
             className="object-cover rounded-xl "

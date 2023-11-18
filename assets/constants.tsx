@@ -103,54 +103,198 @@ export const routes = [
   },
 ];
 
-export const feacturedWork = [
+export const featureworkpagefull = [
   {
+    id: 1,
     title: "Portafolio",
     category: "Web",
-    image: port2,
-    href: "/details",
+    imageC: port2,
+    href: "/portafolio",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: port2,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 2,
     title: "Spotify",
     category: "Web",
-    image: spotify,
-    href: "/details2",
+    imageC: spotify,
+    href: "/spotify",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 3,
     title: "Chat App",
     category: "Mobile",
-    image: chat,
-    href: "/details3",
+    imageC: chat,
+    href: "/chatapp",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 4,
     title: "Old Portafolio",
     category: "Web",
-    image: oldport2,
-    href: "/details3",
+    imageC: oldport2,
+    href: "/oldportafolio",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 5,
     title: "Math with Python",
     category: "Desktop",
-    image: math,
-    href: "/details3",
+    imageC: math,
+    href: "/mathwithpython",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 6,
     title: "Landing Page",
     category: "Web",
-    image: landing,
-    href: "/details3",
+    imageC: landing,
+    href: "/landingpage",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 7,
     title: "Dessert Chop",
     category: "Desktop",
-    image: dessertshop,
-    href: "/details3",
+    imageC: dessertshop,
+    href: "/dessertshop",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
   {
+    id: 8,
     title: "Expence Tracker",
     category: "Mobile",
-    image: expence,
-    href: "/details3",
+    imageC: expence,
+    href: "/expencetracker",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
+    imageT: spotify,
+    link: "",
+    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    imageR: cerdo,
+    responsabiliteies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    technologies:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
   },
 ];
 
@@ -204,35 +348,35 @@ export const ventures = [
 
 export const blogs = [
   {
-    title: "como conectar ble to react",
+    title: "como conectar ble to react1",
     category: "tecnology",
     image: smile2,
     href: "/blog/details",
     age: "4 semans ago",
   },
   {
-    title: "como conectar ble to react",
+    title: "como conectar ble to react2",
     category: "tecnology",
     image: smile2,
     href: "/blog/details",
     age: "4 semans ago",
   },
   {
-    title: "como conectar ble to react",
+    title: "como conectar ble to react3",
     category: "tecnology",
     image: smile2,
     href: "/blog/details",
     age: "4 semans ago",
   },
   {
-    title: "como conectar ble to react",
+    title: "como conectar ble to react4",
     category: "tecnology",
     image: smile2,
     href: "/blog/details",
     age: "4 semans ago",
   },
   {
-    title: "como conectar ble to react",
+    title: "como conectar ble to react5",
     category: "tecnology",
     image: smile2,
     href: "/blog/details",

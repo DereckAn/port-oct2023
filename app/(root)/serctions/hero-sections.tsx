@@ -23,14 +23,14 @@ const HeroSection = () => {
             <h1 className="text-4xl  text-white mb-5">{information.titulo}</h1>
             <p className="text-gray-500 ">{information.description}</p>
           </div>
-          <div className="flex lg:flex-row flex-col justify-between ">
+          <div className="flex lg:flex-row flex-col justify-between space-y-5 ">
             <div className="flex items-center gap-3 ">
               {information.socialmedia.map((item) => (
                 <ButtonSolcialMedia key={item.href} {...item} />
               ))}
               {/* {socialMedia.map((item) => <ButtonSolcialMedia key={item.href} href={item.href}  icon={item.icon}/>)} // note: podemos cambiar como hacemos el map. forma larga y forma corta*/}
             </div>
-            <div className="relative ">
+            <div className="flex">
               <a
                 href="/portafolio_oct_2023/assets/constants.tsx"
                 download={"Dereck-Resume.pdf"}
