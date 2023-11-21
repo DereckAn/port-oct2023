@@ -7,8 +7,7 @@ export const metadata: Metadata = {
   description: "Work Details",
 };
 
-const DetailsWorkPage = ({params}) => {
-  console.log(params);
+const DetailsWorkPage = ({}) => {
   return (
     <main>
       <CardDetailsPage />
