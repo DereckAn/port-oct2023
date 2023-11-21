@@ -16,6 +16,9 @@ const HeroSection = () => {
               alt="Image de yo"
               fill
               className="object-cover rounded-xl grayscale"
+              sizes="100%"
+              priority={true}
+              placeholder = 'blur'
             />
           </div>
           {/* // note: max-w-3xl es para que el texto no se salga de la pantalla */}

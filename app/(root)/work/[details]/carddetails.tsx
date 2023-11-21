@@ -1,36 +1,36 @@
-"use client";
-
-import { usePathname } from "next/navigation";
 import SectionHeader from "./sections/seection-header";
 import SectionMyRole from "./sections/section-my-role";
 import SectionTheProject from "./sections/section-the-project";
 import { featureworkpagefull } from "@/assets/constants";
 
-const CardDetailsPage = ( ) => {
-  const router = usePathname();
-  const lastChar = router[router.length - 1];
-  const id = parseInt(lastChar)-1;
+
+interface CardDetailsPageProps {
+  details: number;
+};
+
+const CardDetailsPage = ( { details } : CardDetailsPageProps) => {
+  const de = (details)-1;
 
   return (
     <>
       <SectionHeader
-        description={featureworkpagefull[id].description}
-        details={featureworkpagefull[id].details}
-        imageT={featureworkpagefull[id].imageT}
-        link="/"
-        title={featureworkpagefull[id].title}
+        description={featureworkpagefull[de].description}
+        details={featureworkpagefull[de].details}
+        imageT={featureworkpagefull[de].imageT}
+        href={featureworkpagefull[de].href}
+        title={featureworkpagefull[de].title}
       />
       <SectionMyRole
-        imageR={featureworkpagefull[id].imageR}
-        responsabiliteies={featureworkpagefull[id].responsabiliteies}
-        technologies={featureworkpagefull[id].technologies}
+        imageR={featureworkpagefull[de].imageR}
+        responsabiliteies={featureworkpagefull[de].responsabiliteies}
+        technologies={featureworkpagefull[de].technologies}
       />
       <SectionTheProject
-        challenge={featureworkpagefull[id].challenge}
-        imageBL={featureworkpagefull[id].imageBL}
-        imageBR={featureworkpagefull[id].imageBR}
-        imageP={featureworkpagefull[id].imageP}
-        outcome={featureworkpagefull[id].outcome}
+        challenge={featureworkpagefull[de].challenge}
+        imageBL={featureworkpagefull[de].imageBL}
+        imageBR={featureworkpagefull[de].imageBR}
+        imageP={featureworkpagefull[de].imageP}
+        outcome={featureworkpagefull[de].outcome}
       />
     </>
   );

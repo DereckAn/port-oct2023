@@ -16,6 +16,7 @@ const CardVentures = ({title, description, image, href} :CardVenturesProps) => {
           alt="hola"
           fill
           className="object-cover rounded-xl"
+          sizes="50%"
         />
       </div>
       <h3 className="text-white text-2xl mb-2 group-hover:text-primary transition-colors duration-300">{title}</h3>

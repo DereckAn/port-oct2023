@@ -10,7 +10,13 @@ interface SectionTheProjectProps {
   imageBL: StaticImageData;
 }
 
-const SectionTheProject = ({challenge, outcome, imageP, imageBR, imageBL} : SectionTheProjectProps) => {
+const SectionTheProject = ({
+  challenge,
+  outcome,
+  imageP,
+  imageBR,
+  imageBL,
+}: SectionTheProjectProps) => {
   return (
     <section id="Section The Project" className="border-b border-gray-500/30">
       <Container>
@@ -19,15 +25,11 @@ const SectionTheProject = ({challenge, outcome, imageP, imageBR, imageBL} : Sect
           <ul className="space-y-8">
             <li className="xl:max-w-2xl lg:max-w-sm ">
               <h4 className="text-xl text-white font-medium ">Challenges</h4>
-              <p className="text-sm text-gray-500">
-                {challenge}
-              </p>
+              <p className="text-sm text-gray-500">{challenge}</p>
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
               <h4 className="text-xl text-white font-medium ">Outcome</h4>
-              <p className="text-sm text-gray-500">
-                {outcome}
-              </p>
+              <p className="text-sm text-gray-500">{outcome}</p>
             </li>
           </ul>
         </div>
@@ -37,6 +39,9 @@ const SectionTheProject = ({challenge, outcome, imageP, imageBR, imageBL} : Sect
             alt="image"
             fill
             className="object-cover rounded-xl "
+            sizes="100%"
+            placeholder="blur"
+            loading="lazy"
           />
         </div>
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10">
@@ -46,6 +51,9 @@ const SectionTheProject = ({challenge, outcome, imageP, imageBR, imageBL} : Sect
               alt="image"
               fill
               className="object-cover rounded-xl "
+              sizes="100%"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
@@ -54,6 +62,9 @@ const SectionTheProject = ({challenge, outcome, imageP, imageBR, imageBL} : Sect
               alt="image"
               fill
               className="object-cover rounded-xl "
+              sizes="100%"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
         </div>

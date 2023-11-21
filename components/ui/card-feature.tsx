@@ -19,6 +19,9 @@ const CardFeatured = ({ id, href, imageC, category, title }: CardFeaturedProps) 
           alt="image cards"
           fill
           className="object-cover rounded-xl group-hover:opacity-80 group-hover:scale-110 transition-all duration-300 ease-in-out"
+          sizes="100%"
+          placeholder = 'blur'
+          loading = 'lazy'
         />
       </div>
       <Badge label={category} />

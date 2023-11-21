@@ -6,9 +6,13 @@ interface SectionMyRoleProps {
   responsabiliteies: string;
   technologies: string;
   imageR: StaticImageData;
-};
+}
 
-const SectionMyRole = ( {responsabiliteies, technologies, imageR } : SectionMyRoleProps ) => {
+const SectionMyRole = ({
+  responsabiliteies,
+  technologies,
+  imageR,
+}: SectionMyRoleProps) => {
   return (
     <section id="Section My Role" className="border-b border-gray-500/30">
       <Container>
@@ -19,17 +23,13 @@ const SectionMyRole = ( {responsabiliteies, technologies, imageR } : SectionMyRo
               <h4 className="text-xl text-white font-medium ">
                 Responsabilities
               </h4>
-              <p className="text-sm text-gray-500">
-                {responsabiliteies}
-              </p>
+              <p className="text-sm text-gray-500">{responsabiliteies}</p>
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
               <h4 className="text-xl text-white font-medium ">
                 Responsabilities
               </h4>
-              <p className="text-sm text-gray-500">
-                {technologies}
-              </p>
+              <p className="text-sm text-gray-500">{technologies}</p>
             </li>
           </ul>
         </div>
@@ -39,6 +39,9 @@ const SectionMyRole = ( {responsabiliteies, technologies, imageR } : SectionMyRo
             alt="image"
             fill
             className="object-cover rounded-xl "
+            sizes="100%"
+            placeholder="blur"
+            loading="lazy"
           />
         </div>
       </Container>

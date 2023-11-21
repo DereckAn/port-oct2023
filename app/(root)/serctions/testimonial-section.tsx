@@ -7,7 +7,7 @@ const TestimonialSection = () => {
   return (
     <section id={"Testimonials"} className="border-b border-gray-500/30">
       <Container>
-        <Title title={"Testimonials"} />
+        <Title title={"Hobbies"} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
           {testimonials.map((item) => (
             <CardTestimonials key={item.name} {...item} />

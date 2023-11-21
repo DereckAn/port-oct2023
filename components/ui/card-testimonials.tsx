@@ -1,18 +1,21 @@
 import Image, { StaticImageData } from "next/image";
 
 interface CardTestimonialsProps {
-    message: string;
-    image: StaticImageData;
-    name: string;
-    job: string;
+  message: string;
+  image: StaticImageData;
+  name: string;
+  job: string;
 }
 
-const CardTestimonials = ({message, image, name, job} : CardTestimonialsProps) => {
+const CardTestimonials = ({
+  message,
+  image,
+  name,
+  job,
+}: CardTestimonialsProps) => {
   return (
     <div className="p-10 rounded-xl border border-gray-500/30">
-      <p className="mb-10 text-gray-300 font-medium">
-        {message}
-      </p>
+      <p className="mb-10 text-gray-300 font-medium">{message}</p>
       <div className="flex item-center gap-4">
         <div className="relative w-12 h-12 rounded-full  ">
           <Image
@@ -20,6 +23,9 @@ const CardTestimonials = ({message, image, name, job} : CardTestimonialsProps) =
             alt=""
             fill
             className="object-cover rounded-full"
+            sizes="50%"
+            placeholder="blur"
+            loading="lazy"
           />
         </div>
         <div>

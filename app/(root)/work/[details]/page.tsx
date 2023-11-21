@@ -6,10 +6,14 @@ export const metadata: Metadata = {
   description: "Work Details",
 };
 
-const DetailsWorkPage = () => {
+interface DetailsWorkPageProps {
+  params: {details: number}
+};
+
+const DetailsWorkPage = ({params} : DetailsWorkPageProps)  => {
   return (
     <main>
-      <CardDetailsPage />
+      <CardDetailsPage details={params.details}/>
     </main>
   );
 };

@@ -37,9 +37,6 @@ import {
   spotify,
 } from "@/assets/images";
 
-//I'm an iOS Developer with interest in Machine Learning and low-level graphics.
-// I am an avid Snowboarder, ping me if you have a ride in mind. I, also love history and maps! Check my projects out.
-
 export const information = {
   name: "Dereck Angeles",
   degree: "Computer Science",
@@ -109,13 +106,12 @@ export const featureworkpagefull = [
     title: "Portafolio",
     category: "Web",
     imageC: port2,
-    href: "/portafolio",
+    href: "https://github.com/DereckAn/port-oct2023",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
     imageT: port2,
-    link: "",
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
-    imageR: cerdo,
+    imageR: smile2,
     responsabiliteies:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
     technologies:
@@ -133,11 +129,10 @@ export const featureworkpagefull = [
     title: "Spotify",
     category: "Web",
     imageC: spotify,
-    href: "/spotify",
+    href: "https://github.com/DereckAn/react-proj/tree/main/spotify",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
     imageT: spotify,
-    link: "",
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -157,11 +152,10 @@ export const featureworkpagefull = [
     title: "Chat App",
     category: "Mobile",
     imageC: chat,
-    href: "/chatapp",
+    href: "https://github.com/DereckAn/FlutterProjects/tree/main/chat_app",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: chat,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -181,11 +175,10 @@ export const featureworkpagefull = [
     title: "Old Portafolio",
     category: "Web",
     imageC: oldport2,
-    href: "/oldportafolio",
+    href: "https://github.com/DereckAn/portafolio.git",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: oldport2,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -205,11 +198,10 @@ export const featureworkpagefull = [
     title: "Math with Python",
     category: "Desktop",
     imageC: math,
-    href: "/mathwithpython",
+    href: "https://github.com/DereckAn/practice/tree/main/Python/Math",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: math,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -229,11 +221,10 @@ export const featureworkpagefull = [
     title: "Landing Page",
     category: "Web",
     imageC: landing,
-    href: "/landingpage",
+    href: "https://github.com/DereckAn/landingpage.git",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: landing,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -253,11 +244,10 @@ export const featureworkpagefull = [
     title: "Dessert Chop",
     category: "Desktop",
     imageC: dessertshop,
-    href: "/dessertshop",
+    href: "https://github.com/DereckAn/practice/tree/main/Java",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: dessertshop,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -277,11 +267,10 @@ export const featureworkpagefull = [
     title: "Expence Tracker",
     category: "Mobile",
     imageC: expence,
-    href: "/expencetracker",
+    href: "https://github.com/DereckAn/FlutterProjects/tree/main/expences020",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
-    link: "",
+    imageT: expence,
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
     responsabiliteies:
@@ -303,25 +292,25 @@ export const testimonials = [
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     job: "hola",
     image: cerdo,
-    name: "Dereck Angeles",
+    name: "Photography",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     job: "hola",
     image: cerdo,
-    name: "Dereck Angeles",
+    name: "Reading",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     job: "hola",
     image: cerdo,
-    name: "Dereck Angeles",
+    name: "Piano",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     job: "hola",
     image: cerdo,
-    name: "Dereck Angeles",
+    name: "Hiking",
   },
 ];
 
@@ -343,44 +332,6 @@ export const ventures = [
     description: "Lumos Language School",
     image: lumos,
     href: "https://lumos.edu/",
-  },
-];
-
-export const blogs = [
-  {
-    title: "como conectar ble to react1",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
-  },
-  {
-    title: "como conectar ble to react2",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
-  },
-  {
-    title: "como conectar ble to react3",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
-  },
-  {
-    title: "como conectar ble to react4",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
-  },
-  {
-    title: "como conectar ble to react5",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
   },
 ];
 
@@ -448,5 +399,43 @@ export const tecnologies = [
   {
     name: "Typescript",
     icon: BiLogoTypescript,
+  },
+];
+
+export const blogs = [
+  {
+    title: "como conectar ble to react1",
+    category: "tecnology",
+    image: smile2,
+    href: "/blog/details",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react2",
+    category: "tecnology",
+    image: smile2,
+    href: "/blog/details",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react3",
+    category: "tecnology",
+    image: smile2,
+    href: "/blog/details",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react4",
+    category: "tecnology",
+    image: smile2,
+    href: "/blog/details",
+    age: "4 semans ago",
+  },
+  {
+    title: "como conectar ble to react5",
+    category: "tecnology",
+    image: smile2,
+    href: "/blog/details",
+    age: "4 semans ago",
   },
 ];
