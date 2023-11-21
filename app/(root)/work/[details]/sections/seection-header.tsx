@@ -4,7 +4,6 @@ import Title from "@/components/ui/title";
 import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
 import Image, { StaticImageData } from "next/image";
 import Container from "@/components/ui/container";
-import { cerdo } from "@/assets/images/index";
 
 interface SectionHeaderProps {
   title: string;
@@ -32,7 +31,7 @@ const SectionHeader = ({
         <div className="flex flex-col lg:flex-row lg:items-center justify-between mt-5 gap-5">
           <Button label="View Code" onClick={() => {}} className="w-auto" />
           <ul className="space-y-3 mb-10 ml-6">
-            {details && details.map((item) => (
+            {details.map((item) => (
               <li
                 className="relative before:absolute before:w-2 before:h-2 before:border before:border-primary before:-left-6 before:top-1/2 before:-translate-y-1/2"
                 key={item}
