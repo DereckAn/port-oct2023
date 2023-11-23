@@ -27,7 +27,7 @@ const SectionMyRole = ({
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
               <h4 className="text-xl text-white font-medium ">
-                Responsabilities
+                Technologies
               </h4>
               <p className="text-sm text-gray-500">{technologies}</p>
             </li>
