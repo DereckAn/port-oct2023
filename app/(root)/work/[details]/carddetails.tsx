@@ -16,7 +16,7 @@ const CardDetailsPage = ( { details } : CardDetailsPageProps) => {
       <SectionHeader
         description={featureworkpagefull[de].description}
         details={featureworkpagefull[de].details}
-        imageT={featureworkpagefull[de].imageT}
+        imageT={featureworkpagefull[de].imageC}
         href={featureworkpagefull[de].href}
         title={featureworkpagefull[de].title}
       />

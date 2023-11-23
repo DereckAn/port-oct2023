@@ -11,6 +11,10 @@ import math from "./math.webp";
 import landing from "./landing.webp";
 import dessertshop from "./dessertshop.webp";
 import expence from "./expence.webp";
+import aa from "./a.webp";
+import ss from "./s.webp";
+import dd from "./d.webp";
+import ff from "./f.webp";
 
 export {
   smile2, 
@@ -26,4 +30,8 @@ export {
   landing, 
   dessertshop, 
   expence,
+  aa,
+  ss,
+  dd,
+  ff,
 };

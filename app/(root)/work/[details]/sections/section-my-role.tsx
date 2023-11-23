@@ -1,10 +1,11 @@
 import Container from "@/components/ui/container";
+import SquareList from "@/components/ui/square-list";
 import Subtitle from "@/components/ui/subtitle";
 import Image, { StaticImageData } from "next/image";
 
 interface SectionMyRoleProps {
-  responsabiliteies: string;
-  technologies: string;
+  responsabiliteies: string[];
+  technologies: React.ElementType[];
   imageR: StaticImageData;
 }
 
@@ -23,13 +24,21 @@ const SectionMyRole = ({
               <h4 className="text-xl text-white font-medium ">
                 Responsabilities
               </h4>
-              <p className="text-sm text-gray-500">{responsabiliteies}</p>
+              <div className="text-gray-500 pt-3 ">
+                <SquareList details={responsabiliteies} />
+              </div>
             </li>
             <li className="xl:max-w-2xl lg:max-w-sm">
-              <h4 className="text-xl text-white font-medium ">
-                Technologies
-              </h4>
-              <p className="text-sm text-gray-500">{technologies}</p>
+              <h4 className="text-xl text-white font-medium ">Technologies</h4>
+              <div className="flex pt-3  gap-5">
+                {technologies.map((Icon) => (
+                  <Icon
+                    key={Icon.toString}
+                    size={30}
+                    className="text-gray-500"
+                  />
+                ))}
+              </div>
             </li>
           </ul>
         </div>

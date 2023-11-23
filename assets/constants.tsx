@@ -22,11 +22,14 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
 import {
+  aa,
   cerdo,
   chat,
+  dd,
   dessertshop,
   ensign,
   expence,
+  ff,
   landing,
   lds,
   lumos,
@@ -35,6 +38,7 @@ import {
   port2,
   smile2,
   spotify,
+  ss,
 } from "@/assets/images";
 
 export const information = {
@@ -107,31 +111,38 @@ export const featureworkpagefull = [
     category: "Web",
     imageC: port2,
     href: "https://github.com/DereckAn/port-oct2023",
-    description:
-    `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.
-    
-    In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
     In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
     `,
-    imageT: port2,
+    ],
     details: ["Personal Project", "Timeline: 2 weeks", "Product Design"],
-    imageR: smile2,
-    responsabiliteies:
-    `Buscar un diseño profesional, limpio y atractivo al público 
-    Actualizar constantemente la información que este contiene 
-    Proyectar la información de manera concisa y fácil de digerir. 
-    Optimización de la página. 
-    `,
-    technologies:
-    `nextjs, taildwindcss, typescript, github, `,
-    imageP: cerdo,
+    imageR: aa,
+    responsabiliteies: [
+      `To look for a clean and attractive professional design to the public.`,
+      `Constantly update the information it contains.`,
+      `To project the information in a concise and easy to digest way.`,
+      `Optimization of the page (SEO).`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
+
+    imageP: ss,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+      "NextJS, being a framework with which I do not yet have a vast experience, presented several challenges during the development of this project. The management of server components and page optimization were undoubtedly the most significant hurdles I had to overcome. In addition, NextJS application path manipulation and dynamic page implementation were concepts that required considerable effort to fully grasp. Despite these challenges, I continued to learn and adapt throughout the process.",
     outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
+      "Thanks to this project I was able to put into practice my knowledge of web development, and also helped me to learn new technologies such as NextJS, TailwindCSS and Typescript. It also helped me to improve my design skills and learn new design techniques.",
+    imageBR: dd,
+    imageBL: ff,
   },
   {
     id: 2,
@@ -139,15 +150,30 @@ export const featureworkpagefull = [
     category: "Web",
     imageC: spotify,
     href: "https://github.com/DereckAn/react-proj/tree/main/spotify",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: spotify,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -162,15 +188,30 @@ export const featureworkpagefull = [
     category: "Mobile",
     imageC: chat,
     href: "https://github.com/DereckAn/FlutterProjects/tree/main/chat_app",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: chat,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -185,15 +226,30 @@ export const featureworkpagefull = [
     category: "Web",
     imageC: oldport2,
     href: "https://github.com/DereckAn/portafolio.git",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: oldport2,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -208,15 +264,30 @@ export const featureworkpagefull = [
     category: "Desktop",
     imageC: math,
     href: "https://github.com/DereckAn/practice/tree/main/Python/Math",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: math,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -231,15 +302,30 @@ export const featureworkpagefull = [
     category: "Web",
     imageC: landing,
     href: "https://github.com/DereckAn/landingpage.git",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: landing,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `To look for a clean and attractive professional design to the public`,
+      `Constantly update the information it contains`,
+      `To project the information in a concise and easy to digest way`,
+      `Optimization of the page (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -254,15 +340,30 @@ export const featureworkpagefull = [
     category: "Desktop",
     imageC: dessertshop,
     href: "https://github.com/DereckAn/practice/tree/main/Java",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: dessertshop,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -277,15 +378,30 @@ export const featureworkpagefull = [
     category: "Mobile",
     imageC: expence,
     href: "https://github.com/DereckAn/FlutterProjects/tree/main/expences020",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque magnam iste? Doloribus, vel? Nemo suscipit reprehenderit voluptatibus dolor doloribus porro maiores similique aliquam et consectetur! Architecto laborum nisi sequi!",
-    imageT: expence,
+    description: [
+      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+    `,
+    ],
     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
     imageR: cerdo,
-    responsabiliteies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    technologies:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    responsabiliteies: [
+      `Buscar un diseño profesional limpio y atractivo al público`,
+      `Actualizar constantemente la información que este contiene`,
+      `Proyectar la información de manera concisa y fácil de digerir.`,
+      `Optimización de la página. (SEO)`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      TbBrandNextjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
