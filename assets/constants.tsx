@@ -18,6 +18,7 @@ import {
   BiLogoJava,
   BiLogoTypescript,
 } from "react-icons/bi";
+import { RiSupabaseLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
@@ -134,6 +135,7 @@ export const featureworkpagefull = [
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
+      
     ],
 
     imageP: ss,
@@ -151,20 +153,16 @@ export const featureworkpagefull = [
     imageC: spotify,
     href: "https://github.com/DereckAn/react-proj/tree/main/spotify",
     description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
-
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
-    ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
-    imageR: cerdo,
+      `This project was created with the intention of having a music player on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+      Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+    `Para descargar las canciones use codigo python para descargar las canciones de youtube y `],
+    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+    imageR: spotify,
     responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
+      `Try to make the page as close to the original as possible`,
+      `Investigate how the supabase api works`,
+      `Save the information of the songs in the database`,
+     ` Download songs from youtube in the most optimal way possible`,
     ],
     technologies: [
       AiOutlineHtml5,
@@ -173,14 +171,17 @@ export const featureworkpagefull = [
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
+      BiLogoPython,
+      RiSupabaseLine,
+
     ],
-    imageP: cerdo,
+    imageP: spotify,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
     outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
+      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+    imageBR: spotify,
+    imageBL: spotify,
   },
   {
     id: 3,
