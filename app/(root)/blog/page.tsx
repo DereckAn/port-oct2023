@@ -3,7 +3,7 @@ import ListBlog from "@/components/ui/list-blog";
 import Title from "@/components/ui/title";
 
 const BlogPage = () => {
-    return ( 
+    return (
         <main className=" pb-10 border-b border-gray-500/30">
             <Container>
                 <Title title={"Blog"} />

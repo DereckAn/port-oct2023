@@ -1,28 +1,4 @@
 import {
-  RiInstagramLine,
-  RiYoutubeLine,
-  RiHome3Line,
-  RiBriefcase2Line,
-  RiUserLine,
-  RiMegaphoneLine,
-  RiEdit2Line,
-} from "react-icons/ri";
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { SiDart, SiFastapi, SiGnubash } from "react-icons/si";
-import {
-  BiLogoJavascript,
-  BiLogoFlutter,
-  BiLogoReact,
-  BiLogoPython,
-  BiLogoTailwindCss,
-  BiLogoJava,
-  BiLogoTypescript,
-} from "react-icons/bi";
-import { RiSupabaseLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
-import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
-import {
   aa,
   cerdo,
   chat,
@@ -40,7 +16,34 @@ import {
   smile2,
   spotify,
   ss,
+  youdown,
+  youdown2,
+  youdown3,
 } from "@/assets/images";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import {
+  BiLogoFlutter,
+  BiLogoJava,
+  BiLogoJavascript,
+  BiLogoPython,
+  BiLogoReact,
+  BiLogoTailwindCss,
+  BiLogoTypescript,
+} from "react-icons/bi";
+import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
+import { GrArchlinux, GrGithub, GrLinkedinOption } from "react-icons/gr";
+import {
+  RiBriefcase2Line,
+  RiEdit2Line,
+  RiHome3Line,
+  RiInstagramLine,
+  RiMegaphoneLine,
+  RiSupabaseLine,
+  RiUserLine,
+  RiYoutubeLine,
+} from "react-icons/ri";
+import { SiDart, SiFastapi, SiGnubash } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const information = {
   name: "Dereck Angeles",
@@ -135,7 +138,6 @@ export const featureworkpagefull = [
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
-      
     ],
 
     imageP: ss,
@@ -155,14 +157,15 @@ export const featureworkpagefull = [
     description: [
       `This project was created with the intention of having a music player on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
       Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
-    `Para descargar las canciones use codigo python para descargar las canciones de youtube y `],
+      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+    ],
     details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
     imageR: spotify,
     responsabiliteies: [
       `Try to make the page as close to the original as possible`,
       `Investigate how the supabase api works`,
       `Save the information of the songs in the database`,
-     ` Download songs from youtube in the most optimal way possible`,
+      ` Download songs from youtube in the most optimal way possible`,
     ],
     technologies: [
       AiOutlineHtml5,
@@ -173,11 +176,10 @@ export const featureworkpagefull = [
       BiLogoTypescript,
       BiLogoPython,
       RiSupabaseLine,
-
     ],
     imageP: spotify,
     challenge:
-    "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
     outcome:
       "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
     imageBR: spotify,
@@ -530,38 +532,103 @@ export const tecnologies = [
 
 export const blogs = [
   {
-    title: "como conectar ble to react1",
-    category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
-    age: "4 semans ago",
+    id: 1,
+    title: "Download videos from YouTuve with python",
+    category: "Python",
+    image: youdown,
+    age: "1 week ago",
+    descriptions: [
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+    ],
+    subtitles: ["Un Titulo Random 1", "Un titulo random 2", "subtitulo 3"],
+    lista: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    ],
+    images: [youdown2],
   },
   {
+    id: 2,
     title: "como conectar ble to react2",
     category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
+    image: cerdo,
     age: "4 semans ago",
+    descriptions: [
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+    ],
+    subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
+    lista: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    ],
+    images: [youdown2],
   },
   {
+    id: 3,
     title: "como conectar ble to react3",
     category: "tecnology",
-    image: smile2,
-    href: "/blog/details",
+    image: ff,
     age: "4 semans ago",
+    descriptions: [
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+    ],
+    subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
+    lista: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    ],
+    images: [youdown2],
   },
   {
+    id: 4,
     title: "como conectar ble to react4",
     category: "tecnology",
     image: smile2,
-    href: "/blog/details",
     age: "4 semans ago",
+    descriptions: [
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+    ],
+    subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
+    lista: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    ],
+    images: [youdown2],
   },
   {
+    id: 5,
     title: "como conectar ble to react5",
     category: "tecnology",
     image: smile2,
-    href: "/blog/details",
     age: "4 semans ago",
+    descriptions: [
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+    ],
+    subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
+    lista: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+    ],
+    images: [youdown2]
   },
 ];

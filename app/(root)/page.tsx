@@ -11,7 +11,7 @@ export default function Home() {
       <FeactuWorkSection />
       <TestimonialSection />
       <VentureSection />
-      <BlogSection /> 
+      <BlogSection />
     </>
   );
 }

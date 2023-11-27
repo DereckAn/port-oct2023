@@ -12,7 +12,7 @@ const BlogSection = () => {
     <section id={"Blog Section"} className="border-b border-gray-500/30">
       <Container>
         <Title title={"Blog"} />
-        <ListBlog />
+        <ListBlog number={3}/>
         <Button label="View All Posts" onClick={() => router.push("/blog")} />
       </Container>
     </section>

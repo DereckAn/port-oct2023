@@ -15,23 +15,31 @@ import aa from "./a.webp";
 import ss from "./s.webp";
 import dd from "./d.webp";
 import ff from "./f.webp";
+import youdown from "./youdown.webp";
+import youdown2 from "./youdown2.webp";
+import youdown3 from "./youdown3.webp";
+
+
 
 export {
-  smile2, 
-  cerdo, 
+  smile2,
+  cerdo,
   port2,
-  spotify, 
+  spotify,
   chat,
   ensign,
-  lds, 
-  lumos, 
-  oldport2, 
-  math, 
-  landing, 
-  dessertshop, 
+  lds,
+  lumos,
+  oldport2,
+  math,
+  landing,
+  dessertshop,
   expence,
   aa,
   ss,
   dd,
   ff,
+  youdown,
+  youdown2,
+  youdown3,
 };

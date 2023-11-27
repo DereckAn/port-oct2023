@@ -1,10 +1,8 @@
-import ListFeaturedWork from "@/components/list-featured-work";
 import Container from "@/components/ui/container";
+import ListFeaturedWork from "@/components/ui/list-featured-work";
 import Title from "@/components/ui/title";
 
 const WorkPage = () => {
-
-
   return (
     <Container>
       <Title title={"Work"} />

@@ -6,7 +6,7 @@ const VentureSection = () => {
   return (
     <section id={"Testimonials"} className="border-b border-gray-500/30">
       <Container>
-        <Title title={"Ventures "} />
+        <Title title={"Jobs"} />
         <ListVentures className="md:grid-cols-2 lg:grid-cols-3" />
       </Container>
     </section>

@@ -5,14 +5,14 @@ interface CardBlogProps {
   title: string;
   category: string;
   image: StaticImageData;
-  href: string;
   age: string;
+  id: number;
 }
 
-const CardBlog = ({ title, category, image, href, age }: CardBlogProps) => {
+const CardBlog = ({ title, category, image, age, id }: CardBlogProps) => {
   return (
     <Link
-      href={href}
+      href={`./blog/${id}`}
       className="group flex flex-col md:flex-row gap-5 items-center"
     >
       {/* //target="_blank"  es para abrir ptra pestana  */}
