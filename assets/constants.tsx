@@ -42,7 +42,7 @@ import {
   RiUserLine,
   RiYoutubeLine,
 } from "react-icons/ri";
-import { SiDart, SiFastapi, SiGnubash } from "react-icons/si";
+import { SiDart, SiFastapi, SiGnubash, SiNextdotjs } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const information = {
@@ -134,7 +134,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -170,7 +170,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -210,7 +210,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -248,7 +248,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -286,7 +286,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -324,7 +324,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -362,7 +362,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -400,7 +400,7 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      TbBrandNextjs,
+      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
       BiLogoTypescript,
@@ -494,7 +494,7 @@ export const tecnologies = [
   },
   {
     name: "NextJS",
-    icon: TbBrandNextjs,
+    icon: SiNextdotjs,
   },
   {
     name: "Flutter",
