@@ -18,7 +18,6 @@ import {
   ss,
   youdown,
   youdown2,
-  youdown3,
 } from "@/assets/images";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {
@@ -42,8 +41,13 @@ import {
   RiUserLine,
   RiYoutubeLine,
 } from "react-icons/ri";
-import { SiDart, SiFastapi, SiGnubash, SiNextdotjs } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import {
+  SiDart,
+  SiFastapi,
+  SiFirebase,
+  SiGnubash,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export const information = {
   name: "Dereck Angeles",
@@ -148,6 +152,7 @@ export const featureworkpagefull = [
     imageBR: dd,
     imageBL: ff,
   },
+
   {
     id: 2,
     title: "Spotify",
@@ -185,6 +190,7 @@ export const featureworkpagefull = [
     imageBR: spotify,
     imageBL: spotify,
   },
+
   {
     id: 3,
     title: "Chat App",
@@ -192,37 +198,29 @@ export const featureworkpagefull = [
     imageC: chat,
     href: "https://github.com/DereckAn/FlutterProjects/tree/main/chat_app",
     description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+      `Developed an interactive chat application using Flutter for the user interface and Supabase for real-time data management. I implemented user authentication, message storage and real-time updates using Supabase Authentication and Cloud Firestore.`,
 
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
+      `I designed and built an intuitive and engaging user interface with Flutter that allows users to send and receive messages in real-time.
+      Ensured code quality and maintainability using Flutter best practices and software design principles.`,
     ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
-    imageR: cerdo,
+    details: ["Social Media", "Timeline: 2-3 weeks", "Mobile Development"],
+    imageR: chat,
     responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
+      `User Interface (UI) Design`,
+      `Feature Development`,
+      `Firebase Integration`,
+      `Maintenance and Updates`,
     ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-    imageP: cerdo,
+    technologies: [BiLogoFlutter, BsGit, SiFirebase],
+    imageP: chat,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+      "The main challenge i faced with this project was to use the Firebase API and to syncornize the messages in real time. Also, testing the application was another challenge, since I had to test it on two different devices, and I just have one emulator at that time.",
     outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
+      "Successfully develop a fully functional chat application with real-time messaging capabilities.",
+    imageBR: chat,
+    imageBL: chat,
   },
+
   {
     id: 4,
     title: "Old Portafolio",
@@ -230,28 +228,23 @@ export const featureworkpagefull = [
     imageC: oldport2,
     href: "https://github.com/DereckAn/portafolio.git",
     description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
-
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
+      `This was one of my first projects. I did it when I was starting to learn programming and web development. The purpose was to put into practice what I was learning and challenge myself to design a web page and deploy it on the internet using github pages.`,
     ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    details: ["Personal Portafolio", "Timeline: 3 weeks", "Web Development"],
     imageR: cerdo,
     responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
+      `To look for a clean and attractive professional design to the public`,
+      `Make the site responsive`,
+      `Learn how to use animations and incorporate them into my components`,
+      `Upload it to github pages`,
     ],
     technologies: [
+      BsGit,
+      BiLogoJavascript,
+      BiLogoReact,
       AiOutlineHtml5,
       BsFiletypeCss,
-      SiNextdotjs,
       BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
     ],
     imageP: cerdo,
     challenge:
@@ -261,6 +254,7 @@ export const featureworkpagefull = [
     imageBR: cerdo,
     imageBL: cerdo,
   },
+
   {
     id: 5,
     title: "Math with Python",
@@ -550,6 +544,7 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
+    href: "https://github.com/DereckAn/python-projects/blob/main/video_down.py",
   },
   {
     id: 2,
@@ -570,6 +565,7 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
+    href: "https://github.com/DereckAn/landingpage.git",
   },
   {
     id: 3,
@@ -590,6 +586,7 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
+    href: "https://github.com/DereckAn/landingpage.git",
   },
   {
     id: 4,
@@ -610,6 +607,7 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
+    href: "https://github.com/DereckAn/landingpage.git",
   },
   {
     id: 5,
@@ -629,6 +627,7 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
-    images: [youdown2]
+    images: [youdown2],
+    href: "https://github.com/DereckAn/landingpage.git",
   },
 ];

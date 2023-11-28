@@ -1,5 +1,4 @@
 import { blogs } from "@/assets/constants";
-import { cerdo } from "@/assets/images";
 import Badge from "@/components/ui/badge";
 import Container from "@/components/ui/container";
 import Title from "@/components/ui/title";
@@ -44,6 +43,15 @@ const BlogDetails = ({ params }: BlogDetailsProps) => {
             />
           </div>
         </article>
+        <div className="w-full pt-7 ">
+          <a
+            href={blogs[id].href}
+            target="_blank"
+            className="py-3 px-4 flex items-center justify-center border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 rounded-lg font-medium w-full cursor-pointer"
+          >
+            View Code
+          </a>
+        </div>
       </Container>
     </main>
   );
