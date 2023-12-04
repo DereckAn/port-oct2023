@@ -51,7 +51,7 @@ body,
   animation: none;
   background-color: #fca311;
   color: aliceblue;
-  border: #fca311;
+  border: #fca311 2px;
   /* scale: 1.1; */
 
 }
