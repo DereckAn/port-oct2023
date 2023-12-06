@@ -4,6 +4,7 @@ import ButtonSolcialMedia from "@/components/ui/button-social-media";
 import { information } from "@/assets/constants";
 import Container from "@/components/ui/container";
 import ScrollingComponent from "@/components/ui/tecnologies-section";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -37,6 +38,8 @@ const HeroSection = () => {
               <a
                 href="./public/Dereck_Resume.pdf"
                 download={"Dereck-Resume.pdf"}
+                rel="noopener noreferrer"
+                target="_blank"
                 className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
               >
                 Resume
