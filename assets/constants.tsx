@@ -262,34 +262,22 @@ export const featureworkpagefull = [
     imageC: math,
     href: "https://github.com/DereckAn/practice/tree/main/Python/Math",
     description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
-
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
+      `This project is a series of exercises that I made to practice python and at the same time reinforce mathematics. The exercises cover topics such as algebra, calculus, trigonometry, etc. 
+      As part of the project I also had to learn how to graph data and learn how to display it in a readable and understandable way, for that I used Latex. `,
     ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    details: ["Mathematics", "Latex", "Python"],
     imageR: cerdo,
     responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
+      `Develop the integer where the data is plotted`,
+      `Find compatibility between python libraries (matplotlib, numpy, sympy, etc)`,
+      `Learn to use Latex to display the data in an understandable way`,
     ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
+    technologies: [BiLogoPython],
     imageP: cerdo,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+      "I found interesting the syntax of latex and how it can be used to display data in an understandable way. Although it is a bit complicated, I enjoyed it a lot. I also learned a lot about the python libraries and how to update them to be compatible with each other",
     outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    "These exercises helped me to use Python and to reinforce my knowledge of mathematics. It also helped me to learn how to use latex and to graph data in an understandable way.",
     imageBR: cerdo,
     imageBL: cerdo,
   },
@@ -548,8 +536,8 @@ export const blogs = [
   },
   {
     id: 2,
-    title: "como conectar ble to react2",
-    category: "tecnology",
+    title: "Convert images with python",
+    category: "Python",
     image: cerdo,
     age: "4 semans ago",
     descriptions: [
@@ -569,7 +557,7 @@ export const blogs = [
   },
   {
     id: 3,
-    title: "como conectar ble to react3",
+    title: "Connect Bluetooth Low Energy to React",
     category: "tecnology",
     image: ff,
     age: "4 semans ago",
