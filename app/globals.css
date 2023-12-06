@@ -22,7 +22,6 @@ body,
   height: 50px;
   margin: 0 40px;
   display: inline-block;
-  /* border: 1px solid #ccc; */
 }
 
 .blinking {
@@ -33,17 +32,16 @@ body,
   0% {
     background-color: #fca311;
     color: #fff;
-    border-color: #121212;
+    border: 2px solid #fca311;
   }
   50% {
     background-color: #121212;
     color: #fca311;
-    border-color: #fca311;
   }
   100% {
     background-color: #fca311;
     color: #fff;
-    border-color: #121212;
+    border: 2px solid #fca311;
   }
 }
 
@@ -51,9 +49,7 @@ body,
   animation: none;
   background-color: #fca311;
   color: aliceblue;
-  border: #fca311 2px;
-  /* scale: 1.1; */
-
+  border: 2px solid #fca311;
 }
 
 @keyframes logos-scroll {

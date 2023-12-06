@@ -1,10 +1,9 @@
-import Image from "next/image";
+import { information } from "@/assets/constants";
 import { smile2 } from "@/assets/images/index";
 import ButtonSolcialMedia from "@/components/ui/button-social-media";
-import { information } from "@/assets/constants";
 import Container from "@/components/ui/container";
 import ScrollingComponent from "@/components/ui/tecnologies-section";
-import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -19,7 +18,7 @@ const HeroSection = () => {
               className="object-cover rounded-xl grayscale"
               sizes="100%"
               priority={true}
-              placeholder = 'blur'
+              placeholder="blur"
             />
           </div>
           {/* // note: max-w-3xl es para que el texto no se salga de la pantalla */}
@@ -36,11 +35,11 @@ const HeroSection = () => {
             </div>
             <div className="flex">
               <a
-                href="./Dereck_Resume.pdf"
+                href="./app/(root)/Dereck_Resume.pdf"
                 download={"Dereck-Resume.pdf"}
                 rel="noopener noreferrer"
                 target="_blank"
-                className="border-2 mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
+                className=" mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
               >
                 Resume
               </a>
