@@ -18,6 +18,7 @@ import ff from "./f.webp";
 import youdown from "./youdown.webp";
 import youdown2 from "./youdown2.webp";
 import youdown3 from "./youdown3.webp";
+import me2 from "./me2.webp";
 
 
 
@@ -43,4 +44,5 @@ export {
   youdown,
   youdown2,
   youdown3,
+  me2
 };
