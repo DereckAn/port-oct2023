@@ -288,17 +288,13 @@ export const featureworkpagefull = [
     imageC: landing,
     href: "https://github.com/DereckAn/landingpage.git",
     description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
-
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
+      `Este proyecto fue para poner en practica mis conocimientos en react. El proposito fue hacer una pagina web que sea responsive y que tenga un buen diseño. Quise hacer una pagina en tiempo record. Solo me di 3 dias para terminar esta pagina. `,
+      `Para terminar la pagina use componentes ya hechos de Syncfunction. `
     ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+    details: ["Personal Project", "Timeline: 1 weekend", "Re-use components"],
     imageR: cerdo,
     responsabiliteies: [
-      `To look for a clean and attractive professional design to the public`,
+      `Buscar un diseño profesional limpio y atractivo al público`,
       `Constantly update the information it contains`,
       `To project the information in a concise and easy to digest way`,
       `Optimization of the page (SEO)`,
@@ -306,10 +302,9 @@ export const featureworkpagefull = [
     technologies: [
       AiOutlineHtml5,
       BsFiletypeCss,
-      SiNextdotjs,
       BiLogoTailwindCss,
       BsGit,
-      BiLogoTypescript,
+      BiLogoReact
     ],
     imageP: cerdo,
     challenge:
