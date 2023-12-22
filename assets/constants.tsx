@@ -11,11 +11,15 @@ import {
   lds,
   lumos,
   math,
+  menugame,
   oldport2,
   port2,
   smile2,
+  snakescre,
   spotify,
   ss,
+  wiima,
+  wilink,
   youdown,
   youdown2,
 } from "@/assets/images";
@@ -115,6 +119,69 @@ export const routes = [
 export const featureworkpagefull = [
   {
     id: 1,
+    title: "Games App ",
+    category: "Mobile",
+    imageC: menugame,
+    href: "https://github.com/DereckAn/games_app.git",
+    description: [
+      `With this project I wanted to put my programming logic into practice. And I'm really putting them into practice! My goal is to recreate each mobile game and then improve it or add a few extra features and improvements.
+       I also want to modify the games to be multiplayer and playable online.`,
+    ],
+    details: ["In Progress", "Personal Project", "Flutter - Dart"],
+    imageR: snakescre,
+    responsabiliteies: [
+      `Implement the logic of each game`,
+      `Build the mobile app`,
+      `Find a way to adapt the games to be multiplayer`,
+    ],
+    technologies: [
+      BsGit,
+      BiLogoFlutter
+    ],
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
+  },
+  {
+    id: 2,
+    title: "Images to Code with AI",
+    category: "Web",
+    imageC: wiima,
+    href: "https://github.com/DereckAn/ima2code.git",
+    description: [
+      `This project came up because I need a way to create web components in a faster way and focus on other things. For this I was learning how to use the OpenAI API and how to send requests and receive information from the API.
+      from the API. My focus was to use the API but in the future I will take care of making the site more presentable. And with more functionalities.`,
+    ],
+    details: ["In Progress", "Personal Project", "OpenAI - API"],
+    imageR: wilink,
+    responsabiliteies: [
+      `Send request to the OpenAI API`,
+      `Build the web page`,
+      `Display the API information in an understandable way`,
+      `Enter the prompt engineering to improve the quality of the information I receive from the API`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
+    imageP: cerdo,
+    challenge:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    outcome:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+    imageBR: cerdo,
+    imageBL: cerdo,
+  },
+  {
+    id: 3,
     title: "Portafolio",
     category: "Web",
     imageC: port2,
@@ -154,7 +221,7 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Spotify",
     category: "Web",
     imageC: spotify,
@@ -192,7 +259,7 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Chat App",
     category: "Mobile",
     imageC: chat,
@@ -222,7 +289,7 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "Old Portafolio",
     category: "Web",
     imageC: oldport2,
@@ -256,7 +323,7 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Math with Python",
     category: "Desktop",
     imageC: math,
@@ -277,19 +344,19 @@ export const featureworkpagefull = [
     challenge:
       "I found interesting the syntax of latex and how it can be used to display data in an understandable way. Although it is a bit complicated, I enjoyed it a lot. I also learned a lot about the python libraries and how to update them to be compatible with each other",
     outcome:
-    "These exercises helped me to use Python and to reinforce my knowledge of mathematics. It also helped me to learn how to use latex and to graph data in an understandable way.",
+      "These exercises helped me to use Python and to reinforce my knowledge of mathematics. It also helped me to learn how to use latex and to graph data in an understandable way.",
     imageBR: cerdo,
     imageBL: cerdo,
   },
   {
-    id: 6,
+    id: 8,
     title: "Landing Page",
     category: "Web",
     imageC: landing,
     href: "https://github.com/DereckAn/landingpage.git",
     description: [
       `Este proyecto fue para poner en practica mis conocimientos en react. El proposito fue hacer una pagina web que sea responsive y que tenga un buen diseño. Quise hacer una pagina en tiempo record. Solo me di 3 dias para terminar esta pagina. `,
-      `Para terminar la pagina use componentes ya hechos de Syncfunction. `
+      `Para terminar la pagina use componentes ya hechos de Syncfunction. `,
     ],
     details: ["Personal Project", "Timeline: 1 weekend", "Re-use components"],
     imageR: cerdo,
@@ -304,7 +371,7 @@ export const featureworkpagefull = [
       BsFiletypeCss,
       BiLogoTailwindCss,
       BsGit,
-      BiLogoReact
+      BiLogoReact,
     ],
     imageP: cerdo,
     challenge:
@@ -315,7 +382,7 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 7,
+    id: 9,
     title: "Dessert Chop",
     category: "Desktop",
     imageC: dessertshop,
@@ -353,7 +420,7 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 8,
+    id: 10,
     title: "Expence Tracker",
     category: "Mobile",
     imageC: expence,
@@ -515,16 +582,20 @@ export const blogs = [
     image: youdown,
     age: "1 week ago",
     descriptions: [
-      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
-      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
-      "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
+      "",
+      "I wanted to download videos from youtube in a fast way and I didn't feel very confident using the websites.",
     ],
-    subtitles: ["Un Titulo Random 1", "Un titulo random 2", "subtitulo 3"],
+    subtitles: ["Just Python Code", "Steps", "subtitulo 3"],
     lista: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Import the necessary libraries - pip install tkinter customtkinter pytube ",
+      "Configures the GUI appearance and creates an application window with a specific size and a title.",
+      "Creates several widgets in the GUI, including a title, an input field for the YouTube video URL, a progress bar and percentage to show the download progress, and a button to start the download.",
+      "Define una progress_function que se llama cada vez que se descarga un fragmento de vídeo. Esta función actualiza la barra de progreso y el porcentaje en la GUI.",
+      `Defines a download_video function that is called when the download button is pressed. This function creates a YouTube object with the provided URL, downloads the
+      video at the highest available resolution, and updates the GUI to display the video title and a success or failure message.`,
+      `Create a label widget to display a message when download is completed.`,
+      `Starts the main application loop, which keeps the GUI open and responds to user events (such as pressing the download button).`
+
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/python-projects/blob/main/video_down.py",
