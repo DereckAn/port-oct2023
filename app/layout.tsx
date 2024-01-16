@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   description: "Portafolio Web",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+interface RootLayoutProps {
+  readonly children: React.ReactNode; // Mark children as read-only
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={cn("bg-dark text-gray-300", font.className)}>
