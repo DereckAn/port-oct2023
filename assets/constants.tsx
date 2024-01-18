@@ -55,7 +55,7 @@ import {
 
 export const information = {
   name: "Dereck Angeles",
-  degree: "Computer Science",
+  degree: "Software Engineer",
   titulo: "Hey, I'm Dereck - I'm a Software Engineer",
   description:
     "With ability to build web and mobil aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
@@ -134,10 +134,7 @@ export const featureworkpagefull = [
       `Build the mobile app`,
       `Find a way to adapt the games to be multiplayer`,
     ],
-    technologies: [
-      BsGit,
-      BiLogoFlutter
-    ],
+    technologies: [BsGit, BiLogoFlutter],
     imageP: cerdo,
     challenge:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -594,8 +591,7 @@ export const blogs = [
       `Defines a download_video function that is called when the download button is pressed. This function creates a YouTube object with the provided URL, downloads the
       video at the highest available resolution, and updates the GUI to display the video title and a success or failure message.`,
       `Create a label widget to display a message when download is completed.`,
-      `Starts the main application loop, which keeps the GUI open and responds to user events (such as pressing the download button).`
-
+      `Starts the main application loop, which keeps the GUI open and responds to user events (such as pressing the download button).`,
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/python-projects/blob/main/video_down.py",
@@ -683,5 +679,47 @@ export const blogs = [
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/landingpage.git",
+  },
+];
+
+export const ReadmeLinks = [
+  {
+    name: "Portafolio",
+    link:
+      "https://api.github.com/repos/DereckAn/port-oct2023/contents/README.md",
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
+  },
+  {
+    name: "Image to code",
+    link:
+      "https://api.github.com/repos/DereckAn/ima2code/contents/README.md",
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
+  },
+  {
+    name: "Games App",
+    link:
+      "https://api.github.com/repos/DereckAn/games_app/contents/README.md",
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+    ],
   },
 ];

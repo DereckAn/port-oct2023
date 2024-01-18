@@ -3,6 +3,7 @@ import { smile2 } from "@/assets/images/index";
 import ButtonSolcialMedia from "@/components/ui/button-social-media";
 import Container from "@/components/ui/container";
 import ScrollingComponent from "@/components/ui/tecnologies-section";
+import ReadmeFile from "@/hooks/fetchReadme";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -36,7 +37,7 @@ const HeroSection = () => {
             <div className="flex">
               <a
                 href="/"
-                download={"Dereck-Resume.pdf"}
+                download={"Dereck_Resume.pdf"}
                 rel="noopener noreferrer"
                 target="_blank"
                 className=" mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
@@ -48,6 +49,9 @@ const HeroSection = () => {
         </div>
         <ScrollingComponent />
       </Container>
+      <div>
+        <ReadmeFile/>
+      </div>
     </section>
   );
 };
