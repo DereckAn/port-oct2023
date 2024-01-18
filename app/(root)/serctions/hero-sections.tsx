@@ -49,9 +49,9 @@ const HeroSection = () => {
         </div>
         <ScrollingComponent />
       </Container>
-      <div>
+      {/* <div>
         <ReadmeFile/>
-      </div>
+      </div> */}
     </section>
   );
 };
