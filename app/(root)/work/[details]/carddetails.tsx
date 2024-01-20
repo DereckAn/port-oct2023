@@ -1,7 +1,9 @@
+'use client';
 import { featureworkpagefull } from "@/assets/constants";
 import SectionMyRole from "./sections/section-my-role";
 import SectionTheProject from "./sections/section-the-project";
 import SectionHeader from "./sections/seection-header";
+import ReadmeFile from "@/hooks/fetchReadme";
 
 interface CardDetailsPageProps {
   details: number;
@@ -23,25 +25,19 @@ export const ReadmeLinks = [
   },
 ];
 
-const text = `Aquí va tu texto`;
-
-// Divide el texto en las partes que necesitas
-const portfolioEndIndex = text.indexOf("!Logo") + "!Logo".length;
-const myRoleEndIndex =
-  text.indexOf("<!-- :satellite: Technologies -->") +
-  "<!-- :satellite: Technologies -->".length;
-
-const portfolioText = text.substring(0, portfolioEndIndex);
-const myRoleText = text.substring(portfolioEndIndex, myRoleEndIndex);
-const projectText = text.substring(myRoleEndIndex);
 
 // Ahora puedes usar 'portfolioText', 'myRoleText' y 'projectText' en tus componentes de Next.js
 
 const CardDetailsPage = ({ details }: CardDetailsPageProps) => {
   const de = details - 1;
+  const { portfolioText, myRoleText, projectText } = ReadmeFile();
 
   return (
     <>
+    {/* <p>{portfolioText}</p> */}
+    {/* <p>{myRoleText}</p> */}
+    {/* <p>{projectText}</p> */}
+
       <SectionHeader
         description={featureworkpagefull[de].description}
         details={featureworkpagefull[de].details}
