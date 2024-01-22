@@ -15,7 +15,7 @@
 - To project the information in a concise and easy to digest way.
 - Optimization of the page (SEO).
 
-![Role](assets/images/aa.webp)
+![Role](assets/images/a.webp)
 
 
 # The Project

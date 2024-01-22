@@ -119,7 +119,7 @@ export const routes = [
 export const featureworkpagefull = [
   {
     id: 1,
-    title: "Games App ",
+    title: "Games App",
     category: "Mobile",
     imageC: menugame,
     href: "https://github.com/DereckAn/games_app.git",
@@ -171,7 +171,8 @@ export const featureworkpagefull = [
     ],
     imageP: cerdo,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+      `The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way. 
+      Also, trying to adapt the prompt was a little tricky beacuse sometimes I did not get the desire result. `,
     outcome:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
     imageBR: cerdo,

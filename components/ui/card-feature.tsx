@@ -12,7 +12,7 @@ interface CardFeaturedProps {
 
 const CardFeatured = ({ id, href, imageC, category, title }: CardFeaturedProps) => {
   return (
-    <Link href={`/work/${id}`} className="group">
+    <Link href={`/work/${title}`} className="group">
       <div className="relative w-full h-80 mb-5 overflow-hidden rounded-xl">
         <Image
           src={imageC}

@@ -1,43 +1,32 @@
-'use client';
 import { featureworkpagefull } from "@/assets/constants";
 import SectionMyRole from "./sections/section-my-role";
 import SectionTheProject from "./sections/section-the-project";
 import SectionHeader from "./sections/seection-header";
-import ReadmeFile from "@/hooks/fetchReadme";
 
 interface CardDetailsPageProps {
-  details: number;
+  tittle: string;
 }
 
-export const ReadmeLinks = [
-  {
-    name: "Portafolio",
-    link:
-      "https://api.github.com/repos/DereckAn/port-oct2023/contents/README.md",
-  },
-  {
-    name: "Image to code",
-    link: "https://api.github.com/repos/DereckAn/ima2code/contents/README.md",
-  },
-  {
-    name: "Games App",
-    link: "https://api.github.com/repos/DereckAn/games_app/contents/README.md",
-  },
-];
+function findIndexByTitle(titulo: string) {
+  // const dee = decodeURIComponent(titulo.split("/").pop() || "");
+  for (let i = 0; i < featureworkpagefull.length; i++) {
+    if (featureworkpagefull[i].title === `/work/${titulo}`) {
+      return i;
+    }
+  }
+  return -1; // Retorna -1 si no encuentra el título
+}
 
+const CardDetailsPage = ({ tittle }: CardDetailsPageProps) => {
+  const de = findIndexByTitle(tittle);
+  // const de = tittle - 1;
 
-// Ahora puedes usar 'portfolioText', 'myRoleText' y 'projectText' en tus componentes de Next.js
-
-const CardDetailsPage = ({ details }: CardDetailsPageProps) => {
-  const de = details - 1;
-  const { portfolioText, myRoleText, projectText } = ReadmeFile();
+  if (de === -1) {
+    return <div>No se encontró el título {tittle}</div>;
+  }
 
   return (
     <>
-    {/* <p>{portfolioText}</p> */}
-    {/* <p>{myRoleText}</p> */}
-    {/* <p>{projectText}</p> */}
-
       <SectionHeader
         description={featureworkpagefull[de].description}
         details={featureworkpagefull[de].details}
