@@ -3,14 +3,12 @@ import Link from "next/link";
 import Badge from "./badge";
 
 interface CardFeaturedProps {
-    id: number;
-    href: string;
     imageC: StaticImageData;
     category: string;
     title: string;
 }
 
-const CardFeatured = ({ id, href, imageC, category, title }: CardFeaturedProps) => {
+const CardFeatured = ({ imageC, category, title }: CardFeaturedProps) => {
   return (
     <Link href={`/work/${title}`} className="group">
       <div className="relative w-full h-80 mb-5 overflow-hidden rounded-xl">

@@ -118,7 +118,6 @@ export const routes = [
 
 export const featureworkpagefull = [
   {
-    id: 1,
     title: "Games App",
     category: "Mobile",
     imageC: menugame,
@@ -144,7 +143,6 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 2,
     title: "Images to Code with AI",
     category: "Web",
     imageC: wiima,
@@ -179,7 +177,6 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 3,
     title: "Portafolio",
     category: "Web",
     imageC: port2,
@@ -219,7 +216,6 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 4,
     title: "Spotify",
     category: "Web",
     imageC: spotify,
@@ -257,7 +253,6 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 5,
     title: "Chat App",
     category: "Mobile",
     imageC: chat,
@@ -287,7 +282,6 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 6,
     title: "Old Portafolio",
     category: "Web",
     imageC: oldport2,
@@ -321,7 +315,6 @@ export const featureworkpagefull = [
   },
 
   {
-    id: 7,
     title: "Math with Python",
     category: "Desktop",
     imageC: math,
@@ -347,7 +340,6 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 8,
     title: "Landing Page",
     category: "Web",
     imageC: landing,
@@ -380,7 +372,6 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 9,
     title: "Dessert Chop",
     category: "Desktop",
     imageC: dessertshop,
@@ -418,7 +409,6 @@ export const featureworkpagefull = [
     imageBL: cerdo,
   },
   {
-    id: 10,
     title: "Expence Tracker",
     category: "Mobile",
     imageC: expence,

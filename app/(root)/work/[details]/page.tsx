@@ -7,13 +7,13 @@ export const metadata: Metadata = {
 };
 
 interface DetailsWorkPageProps {
-  params: {details: number}
+  params: {details: string}
 };
 
 const DetailsWorkPage = ({params} : DetailsWorkPageProps)  => {
   return (
     <main>
-      <CardDetailsPage details={params.details}/>
+      <CardDetailsPage tittle={params.details}/>
     </main>
   );
 };
