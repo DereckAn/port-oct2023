@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <main className="border-b border-gray-500/30">
+    <main className="border-b border-gray-500/30 ">
       <Container>
         <Title title="About ME" />
-        <div className=" flex flex-col  xl:flex-row">
+        <div className=" flex flex-col  xl:flex-row md:justify-center">
           <div className="relative w-full h-[600px] rounded-xl xl:max-w-xl">
             <Image
               src={me2}
@@ -25,9 +25,7 @@ const AboutPage = () => {
             <p className="text-gray-500 ">
               Hi, my name is Dereck Angeles. I currently live in Utah, and I
               have a great passion for technology, programming, photography and
-              piano. I am currently enrolled in a Bachelors in Computer Science
-              at Ensign College, also pursuing certificates in software
-              engineering and computer science.
+              piano. 
             </p>
             <p className="text-gray-500 ">
               In my free time, I enjoy going out to take pictures, practice
@@ -36,18 +34,21 @@ const AboutPage = () => {
               peaceful person and I believe that the best way to solve problems
               is by talking.
             </p>
+            <h2 className="text-gray-500 text-3xl">
+              Education:
+            </h2>
             <p className="text-gray-500 ">
-              I love the problem-solving process and am very interested in
-              exploring new concepts. My academic background in computer science
-              enables me to adapt quickly to new technologies and increases my
-              problem-solving efficiency. I like to immerse myself
-              in unfamiliar challenges. The process of deciphering these
-              questions provides me with immense gratification and fuels my
-              motivation to persist in my educational journey.
+              I am currently enrolled in a Bachelors in Computer Science at
+              Ensign College, also pursuing certificates in software engineering
+              and computer science.
             </p>
+            <h2 className="text-gray-500 text-3xl">
+              Certificates:
+            </h2>
             <p className="text-gray-500 ">
-              Thank you for taking the time to read about me. I look forward to
-              the opportunity to learn more about you and your projects.
+              I am currently enrolled in a Bachelors in Computer Science at
+              Ensign College, also pursuing certificates in software engineering
+              and computer science.
             </p>
           </div>
         </div>
