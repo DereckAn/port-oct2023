@@ -35,7 +35,7 @@ const HeroSection = () => {
             </div>
             <div className="flex">
               <a
-                href="/"
+                href="./Dereck_Resume.pdf"
                 download={"Dereck_Resume.pdf"}
                 rel="noopener noreferrer"
                 target="_blank"
