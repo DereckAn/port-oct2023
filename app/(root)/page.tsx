@@ -10,7 +10,7 @@ export default function Home() {
       <HeroSection />
       <FeactuWorkSection />
       <VentureSection />
-      {/* <TestimonialSection /> */}
+      <TestimonialSection />
       <BlogSection />
     </>
   );

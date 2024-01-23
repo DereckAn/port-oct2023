@@ -10,14 +10,13 @@ const HeroSection = () => {
     <section id="home" className="border-b border-gray-500/30 pb-10">
       <Container>
         <div className="space-y-10 mb-10">
-          <div className="relative w-24 h-24 ">
+          <div className="relative w-48 h-48">
             <Image
               src={smile2}
               alt="Image de yo"
               fill
               className="object-cover rounded-xl grayscale"
               sizes="100%"
-              priority={true}
               placeholder="blur"
             />
           </div>

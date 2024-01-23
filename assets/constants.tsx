@@ -1,7 +1,9 @@
 import {
   aa,
   cerdo,
+  changecolor,
   chat,
+  code_mc,
   dd,
   dessertshop,
   ensign,
@@ -14,10 +16,12 @@ import {
   menugame,
   oldport2,
   port2,
+  script_minec,
   smile2,
   snakescre,
   spotify,
   ss,
+  tetris,
   wiima,
   wilink,
   youdown,
@@ -132,14 +136,15 @@ export const featureworkpagefull = [
       `Implement the logic of each game`,
       `Build the mobile app`,
       `Find a way to adapt the games to be multiplayer`,
+      `Adding new features to each game`
     ],
     technologies: [BsGit, BiLogoFlutter],
-    imageP: cerdo,
+    imageP: tetris,
     challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+      "The logic of each game. There were times where I was litteraly stuck trying to implement the logic correctly. I watched some vides, used chatgpt, used stackoverflow to complete what I wanted. Another big challenge was setting the server for multiplayer games. It was my frist time doing that. I needed to learn a little of mongoDB, and how to connect my database with the game.",
     outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
+      "It is not complete yet, but it's fun to face and overcome the challenges. My programming logic has improved, and I have a clearer idea of making full stack applications.",
+    imageBR: changecolor,
     imageBL: cerdo,
   },
   {
@@ -450,27 +455,23 @@ export const featureworkpagefull = [
 export const testimonials = [
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    job: "hola",
     image: cerdo,
-    name: "Photography",
+    hobbie: "Photography",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    job: "hola",
     image: cerdo,
-    name: "Reading",
+    hobbie: "Reading",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    job: "hola",
     image: cerdo,
-    name: "Piano",
+    hobbie: "Piano",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    job: "hola",
     image: cerdo,
-    name: "Hiking",
+    hobbie: "Minecraft",
   },
 ];
 
@@ -610,10 +611,10 @@ export const blogs = [
   },
   {
     id: 3,
-    title: "Connect Bluetooth Low Energy to React",
-    category: "tecnology",
-    image: ff,
-    age: "4 semans ago",
+    title: "Script to Prepare for Minecraft Server",
+    category: "Bash and Batch",
+    image: script_minec,
+    age: "Some Days",
     descriptions: [
       "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
       "Description - tiene que ser un parrafo pequeno pero no tan pequeno",
@@ -626,8 +627,8 @@ export const blogs = [
       "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
       "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
-    images: [youdown2],
-    href: "https://github.com/DereckAn/landingpage.git",
+    images: [code_mc],
+    href: "https://github.com/DereckAn/minecraft.git",
   },
   {
     id: 4,

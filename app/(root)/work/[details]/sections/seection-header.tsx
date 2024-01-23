@@ -1,5 +1,3 @@
-// "use client"; // note cada vez que ponemos la pagina del lado del cliente perdemos el ceo x
-
 import Title from "@/components/ui/title";
 // import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
 import Image, { StaticImageData } from "next/image";
@@ -37,7 +35,7 @@ const SectionHeader = ({
           <a
             href={href}
             target="_blank"
-            className="py-3 px-4  border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 rounded-lg font-medium w-auto cursor-pointer"
+            className="py-3 px-4  border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 rounded-lg font-medium w-auto cursor-pointer flex items-center justify-center"
           >
             View Code
           </a>
@@ -47,7 +45,7 @@ const SectionHeader = ({
           <Image
             src={imageT}
             fill
-            className="object-cover rounded-xl"
+            className="object-cover rounded-xl "
             alt={"imagenT"}
             sizes="100%"
             placeholder="blur"

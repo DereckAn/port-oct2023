@@ -10,6 +10,20 @@ interface SectionTheProjectProps {
   imageBL: StaticImageData;
 }
 
+const ImageComponent = ({ src }: { src: StaticImageData }) => (
+  <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl ">
+    <Image
+      src={src}
+      alt="image"
+      fill
+      className="object-cover rounded-xl "
+      sizes="100%"
+      placeholder="blur"
+      loading="lazy"
+    />
+  </div>
+);
+
 const SectionTheProject = ({
   challenge,
   outcome,
@@ -33,40 +47,10 @@ const SectionTheProject = ({
             </li>
           </ul>
         </div>
-        <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl mb-10">
-          <Image
-            src={imageP}
-            alt="image"
-            fill
-            className="object-cover rounded-xl "
-            sizes="100%"
-            placeholder="blur"
-            loading="lazy"
-          />
-        </div>
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10">
-          <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
-            <Image
-              src={imageBL}
-              alt="image"
-              fill
-              className="object-cover rounded-xl "
-              sizes="100%"
-              placeholder="blur"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl">
-            <Image
-              src={imageBR}
-              alt="image"
-              fill
-              className="object-cover rounded-xl "
-              sizes="100%"
-              placeholder="blur"
-              loading="lazy"
-            />
-          </div>
+        <ImageComponent src={imageP} />
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10 pt-10">
+          <ImageComponent src={imageBL} />
+          <ImageComponent src={imageBR} />
         </div>
       </Container>
     </section>
