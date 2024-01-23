@@ -600,10 +600,10 @@ export const blogs = [
     ],
     subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
     lista: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/landingpage.git",
@@ -621,10 +621,10 @@ export const blogs = [
     ],
     subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
     lista: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/landingpage.git",
@@ -642,10 +642,10 @@ export const blogs = [
     ],
     subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
     lista: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/landingpage.git",
@@ -663,54 +663,13 @@ export const blogs = [
     ],
     subtitles: ["subtitulo 1", "subtitulo 2", "subtitulo 3"],
     lista: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
     ],
     images: [youdown2],
     href: "https://github.com/DereckAn/landingpage.git",
   },
 ];
 
-export const ReadmeLinks = [
-  {
-    name: "Portafolio",
-    link:
-      "https://api.github.com/repos/DereckAn/port-oct2023/contents/README.md",
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-  },
-  {
-    name: "Image to code",
-    link:
-      "https://api.github.com/repos/DereckAn/ima2code/contents/README.md",
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-  },
-  {
-    name: "Games App",
-    link:
-      "https://api.github.com/repos/DereckAn/games_app/contents/README.md",
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-  },
-];

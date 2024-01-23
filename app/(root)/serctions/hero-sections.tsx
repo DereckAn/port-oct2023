@@ -3,7 +3,6 @@ import { smile2 } from "@/assets/images/index";
 import ButtonSolcialMedia from "@/components/ui/button-social-media";
 import Container from "@/components/ui/container";
 import ScrollingComponent from "@/components/ui/tecnologies-section";
-import ReadmeFile from "@/hooks/fetchReadme";
 import Image from "next/image";
 
 const HeroSection = () => {
