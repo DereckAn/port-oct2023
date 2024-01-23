@@ -35,8 +35,8 @@ const HeroSection = () => {
             </div>
             <div className="flex">
               <a
-                href="/public/Dereck_Resume.pdf"
-                download={"Dereck_Resume.pdf"}
+                href="Dereck_Resume.pdf"
+                download="Dereck_Resume.pdf"
                 rel="noopener noreferrer"
                 target="_blank"
                 className=" mr-10 rounded-lg text-xl  py-2 px-5 transition-colors duration-300 blinking"
@@ -48,9 +48,6 @@ const HeroSection = () => {
         </div>
         <ScrollingComponent />
       </Container>
-      {/* <div>
-        <ReadmeFile/>
-      </div> */}
     </section>
   );
 };
