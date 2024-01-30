@@ -62,7 +62,7 @@ export const information = {
   degree: "Software Engineer",
   titulo: "Hey, I'm Dereck - I'm a Software Engineer",
   description:
-    "With ability to build web and mobil aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
+    "With ability to build web and mobile aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
   socialmedia: [
     {
       name: "Github",
@@ -632,8 +632,8 @@ export const blogs = [
   },
   {
     id: 4,
-    title: "como conectar ble to react4",
-    category: "tecnology",
+    title: "Make the Snake Game with Python",
+    category: "Python",
     image: smile2,
     age: "4 semans ago",
     descriptions: [
@@ -653,8 +653,8 @@ export const blogs = [
   },
   {
     id: 5,
-    title: "como conectar ble to react5",
-    category: "tecnology",
+    title: "Train the flap bird with python",
+    category: "Pyhton",
     image: smile2,
     age: "4 semans ago",
     descriptions: [

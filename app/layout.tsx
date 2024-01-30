@@ -20,7 +20,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={cn("bg-dark text-gray-300", font.className)}>
-        <main className="lg:pl-[23vw] xl:pl-[16vw]  px-5 xl:-px-0  ">
+        <main className="lg:pl-[23vw] xl:pl-[20vw] xxl:pl-[16vw]  px-5 xl:-px-0  ">
           {children}
         </main>
       </body>
