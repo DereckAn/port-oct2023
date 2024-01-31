@@ -25,13 +25,21 @@ const SliderItem = ({
         itemActivo === id ? "z-10 opacity-100" : "opacity-0"
       )}
     >
-      <div className="realtive w-full h-full ">
-        <Image src={image} fill className="object-cover" alt="Image" />
+      <div className="relative w-full h-full ">
+        <Image
+          src={image}
+          fill
+          className="object-cover"
+          alt="Image"
+          sizes="100%"
+          placeholder="blur"
+          loading="lazy"
+        />
       </div>
       <div className="spcae-y-4 absolute left-[10%] top-[20%] w-[500px] max-w-[80%] z-10">
         <p
           className={cn(
-            "uppercase tracking-[10px] text-white translate-y-[30px] blur-[20px] opacity-0 ", 
+            "uppercase tracking-[10px] text-white translate-y-[30px] blur-[20px] opacity-0 ",
             itemActivo === id && "animate-show-content"
           )}
         >
@@ -47,7 +55,7 @@ const SliderItem = ({
         </h2>
         <p
           className={cn(
-            "text-gray-200 translate-y-[30px] blur-[20px] opacity-0 animation-delay-5", 
+            "text-gray-200 translate-y-[30px] blur-[20px] opacity-0 animation-delay-5",
             itemActivo === id && "animate-show-content"
           )}
         >

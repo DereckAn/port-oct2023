@@ -34,6 +34,9 @@ const SliderThumbnail = ({
           fill
           className="object-cover rounded-lg"
           alt="Thumbnail"
+          sizes="100%"
+          placeholder = 'blur'
+          loading = 'lazy'
         />
       </div>
       <div
