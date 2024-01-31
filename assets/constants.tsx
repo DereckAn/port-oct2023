@@ -27,6 +27,7 @@ import {
   youdown,
   youdown2,
 } from "@/assets/images";
+import { link } from "fs";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {
   BiLogoFlutter,
@@ -457,21 +458,25 @@ export const testimonials = [
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     image: cerdo,
     hobbie: "Photography",
+    link: "/photogray",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     image: cerdo,
     hobbie: "Reading",
+    link: "/photogray",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     image: cerdo,
     hobbie: "Piano",
+    link: "/photogray",
   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     image: cerdo,
     hobbie: "Minecraft",
+    link: "/photogray",
   },
 ];
 
