@@ -27,6 +27,9 @@ import tetris from "./tetris.webp";
 import changecolor from "./changecolor.webp";
 import script_minec from "./script_minec.webp";
 import code_mc from "./code_mc.webp";
+import cerdoH from "./cerdoH.webp";
+import cerdoM from "./cerdoM.webp";
+import L from "./L.webp";
 
 
 export {
@@ -59,4 +62,7 @@ export {
   changecolor,
   script_minec,
   code_mc,
+  cerdoH,
+  cerdoM,
+  L,
 };

@@ -1,6 +1,9 @@
 import {
+  L,
   aa,
   cerdo,
+  cerdoH,
+  cerdoM,
   changecolor,
   chat,
   code_mc,
@@ -27,7 +30,6 @@ import {
   youdown,
   youdown2,
 } from "@/assets/images";
-import { link } from "fs";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {
   BiLogoFlutter,
@@ -137,7 +139,7 @@ export const featureworkpagefull = [
       `Implement the logic of each game`,
       `Build the mobile app`,
       `Find a way to adapt the games to be multiplayer`,
-      `Adding new features to each game`
+      `Adding new features to each game`,
     ],
     technologies: [BsGit, BiLogoFlutter],
     imageP: tetris,
@@ -174,8 +176,7 @@ export const featureworkpagefull = [
       BiLogoTypescript,
     ],
     imageP: cerdo,
-    challenge:
-      `The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way. 
+    challenge: `The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way. 
       Also, trying to adapt the prompt was a little tricky beacuse sometimes I did not get the desire result. `,
     outcome:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
@@ -679,3 +680,36 @@ export const blogs = [
   },
 ];
 
+export const photos = [
+  {
+    id: 1,
+    image: cerdoH,
+    brand: "pig",
+    name: "Pato",
+    description:
+      "I couldn't ask for a better model than my duck for my photos. He is always willing to pose for me.",
+  },
+  {
+    id: 2,
+    image: cerdoM,
+    brand: "pig",
+    name: "Pato",
+    description:
+      "Again",
+  },
+  {
+    id: 3,
+    image: L,
+    brand: "Special Time",
+    name: "Floating Lanterns",
+    description: "",
+  },
+  {
+    id: 4,
+    image: cerdo,
+    brand: "pig",
+    name: "Pato",
+    description:
+      " He's name is Pato. (Duck)",
+  },
+];
