@@ -1,20 +1,37 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        slider: "linear-gradient(to top, #000 10%, transparent)",
+        thumbnails: "linear-gradient(to top, #000 2%, transparent)",
+      },
+
       colors: {
-        primary:'#fca311',
-        dark: '#121212',
-        'dark-light': '#181818'
+        primary: "#fca311",
+        dark: "#121212",
+        "dark-light": "#181818",
+      },
+      keyframes: {
+        showContent: {
+          to: {
+            transformt: "translateY(0%)",
+            filter: "blur(0)",
+            opacity: '1',
+          },
+        },
+      },
+      animation: {
+        'show-content': "showContent 0.5s 0.7s ease-in-out 1 forwards",
       },
     },
   },
-  plugins: [],
-}
-export default config
+  plugins: [require("tailwind-animation-delay")],
+};
+export default config;

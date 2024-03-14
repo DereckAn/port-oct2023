@@ -1,5 +1,4 @@
 import Title from "@/components/ui/title";
-// import Button from "@/components/ui/button"; // note:  tenemos que poner 'use client' en la primera linea
 import Image, { StaticImageData } from "next/image";
 import Container from "@/components/ui/container";
 import SquareList from "@/components/ui/square-list";

@@ -22,7 +22,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
       />
 
       {children}
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 };
