@@ -62,7 +62,7 @@ export const information = {
   degree: "Software Engineer",
   titulo: "Hey, I'm Dereck - I'm a Software Engineer",
   description:
-    "With ability to build web and mobil aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
+    "With ability to build web and mobile aplications. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me here.",
   socialmedia: [
     {
       name: "Github",
