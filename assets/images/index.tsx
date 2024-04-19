@@ -30,6 +30,7 @@ import code_mc from "./code_mc.webp";
 import cerdoH from "./cerdoH.webp";
 import cerdoM from "./cerdoM.webp";
 import L from "./L.webp";
+import mustang from "./mustang.webp";
 
 
 export {
@@ -65,4 +66,5 @@ export {
   cerdoH,
   cerdoM,
   L,
+  mustang,
 };

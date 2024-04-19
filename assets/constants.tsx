@@ -17,6 +17,7 @@ import {
   lumos,
   math,
   menugame,
+  mustang,
   oldport2,
   port2,
   script_minec,
@@ -483,22 +484,22 @@ export const testimonials = [
 
 export const ventures = [
   {
+    title: "Full Stack Developer",
+    description: "Mustangbus Transportation",
+    image: mustang,
+    href: "https://www.mustangbus.com/",
+  },
+  {
     title: "Math Teacher Assistant",
     description: "Ensign College",
     image: ensign,
     href: "https://www.ensign.edu/",
-  },
+  },  
   {
     title: "Custodial",
     description: "Missionary Training Center",
     image: lds,
     href: "https://provo.mtc.byu.edu/",
-  },
-  {
-    title: "Custodial",
-    description: "Lumos Language School",
-    image: lumos,
-    href: "https://lumos.edu/",
   },
 ];
 
