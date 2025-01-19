@@ -1,6 +1,16 @@
 import {
   L,
   aa,
+  admpro0,
+  admpro1,
+  admpro2,
+  admpro3,
+  admpro4,
+  alle0,
+  alle1,
+  alle2,
+  alle3,
+  alle4,
   cerdo,
   cerdoH,
   cerdoM,
@@ -14,12 +24,16 @@ import {
   ff,
   landing,
   lds,
-  lumos,
   math,
   menugame,
   mustang,
   oldport2,
   port2,
+  pro1,
+  pro2,
+  pro3,
+  pro4,
+  pro5,
   script_minec,
   smile2,
   snakescre,
@@ -125,6 +139,114 @@ export const routes = [
 ];
 
 export const featureworkpagefull = [
+  {
+    title: "Alleviare",
+    category: "Web",
+    imageC: alle0,
+    href: "https://alleviare.vercel.app/",
+    description: [
+      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+    ],
+    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+    imageR: alle1,
+    responsabiliteies: [
+      `Try to make the page as close to the original as possible`,
+      `Investigate how the supabase api works`,
+      `Save the information of the songs in the database`,
+      ` Download songs from youtube in the most optimal way possible`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+      BiLogoPython,
+      RiSupabaseLine,
+    ],
+    imageP: alle2,
+    challenge:
+      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+    outcome:
+      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+    imageBR: alle3,
+    imageBL: alle4,
+  },
+  {
+    title: "Protein House Admin Page",
+    category: "Web",
+    imageC: admpro0,
+    href: "https://theproteinhousee.com/",
+    description: [
+      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+    ],
+    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+    imageR: admpro1,
+    responsabiliteies: [
+      `Try to make the page as close to the original as possible`,
+      `Investigate how the supabase api works`,
+      `Save the information of the songs in the database`,
+      ` Download songs from youtube in the most optimal way possible`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+      BiLogoPython,
+      RiSupabaseLine,
+    ],
+    imageP: admpro2,
+    challenge:
+      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+    outcome:
+      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+    imageBR: admpro3,
+    imageBL: admpro4,
+  },
+  {
+    title: "Protein House Page",
+    category: "Web",
+    imageC: pro1,
+    href: "https://theproteinhousee.com/",
+    description: [
+      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+    ],
+    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+    imageR: pro2,
+    responsabiliteies: [
+      `Try to make the page as close to the original as possible`,
+      `Investigate how the supabase api works`,
+      `Save the information of the songs in the database`,
+      ` Download songs from youtube in the most optimal way possible`,
+    ],
+    technologies: [
+      AiOutlineHtml5,
+      BsFiletypeCss,
+      SiNextdotjs,
+      BiLogoTailwindCss,
+      BsGit,
+      BiLogoTypescript,
+      BiLogoPython,
+      RiSupabaseLine,
+    ],
+    imageP: pro3,
+    challenge:
+      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+    outcome:
+      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+    imageBR: pro4,
+    imageBL: pro5,
+  },
   {
     title: "Games App",
     category: "Mobile",
@@ -494,7 +616,7 @@ export const ventures = [
     description: "Ensign College",
     image: ensign,
     href: "https://www.ensign.edu/",
-  },  
+  },
   {
     title: "Custodial",
     description: "Missionary Training Center",
@@ -695,8 +817,7 @@ export const photos = [
     image: cerdoM,
     brand: "pig",
     name: "Pato",
-    description:
-      "Again",
+    description: "Again",
   },
   {
     id: 3,
@@ -710,7 +831,6 @@ export const photos = [
     image: cerdo,
     brand: "pig",
     name: "Pato",
-    description:
-      " He's name is Pato. (Duck)",
+    description: " He's name is Pato. (Duck)",
   },
 ];
