@@ -26,7 +26,7 @@ const ImageComponent = ({src, alt}: {src: StaticImageData, alt: string}) => (
   </div>
 )
 
-const BlogDetails = ({ params }: BlogDetailsProps) => {
+const BlogDetails = ({ params }: BlogDetailsProps | any) => {
   const decodedTitle = decodeURIComponent(params.details);
   const item = findByTitle(decodedTitle);
 

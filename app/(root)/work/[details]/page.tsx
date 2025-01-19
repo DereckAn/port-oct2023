@@ -10,7 +10,7 @@ interface DetailsWorkPageProps {
   params: { details: string };
 }
 
-const DetailsWorkPage = ({ params }: DetailsWorkPageProps) => {
+const DetailsWorkPage = ({ params }: DetailsWorkPageProps | any) => {
   return (
     <main>
       <CardDetailsPage tittle={params.details} />
