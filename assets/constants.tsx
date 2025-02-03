@@ -179,7 +179,7 @@ export const featureworkpagefull = [
     title: "Protein House Admin Page",
     category: "Web",
     imageC: admpro0,
-    href: "https://theproteinhousee.com/",
+    href: "https://dereckan.com/",
     description: [
       `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
             Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
