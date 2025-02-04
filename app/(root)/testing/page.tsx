@@ -3,10 +3,6 @@
 import { getMarkdownFiles, MarkdownData } from "@/utils/projects";
 import Link from "next/link";
 
-interface HomeProps {
-  markdownFiles: MarkdownData[];
-}
-
 export default async function Home() {
   // Obtener los archivos Markdown usando la función asincrónica
   const markdownFiles = await getMarkdownFiles();

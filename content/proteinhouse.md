@@ -1,13 +1,13 @@
 ---
-title: "Old Portfolio"
+title: "Protein House Page"
 category: "Web"
-imageC: "/images/projects/oldport2.png"
+imageC: "/images/Protein1.webp"
 href: "https://github.com/DereckAn/portafolio.git"
 details:
   - "Personal Portfolio"
   - "Timeline: 3 weeks"
   - "Web Development"
-imageR: "/images/projects/cerdo.png"
+imageR: "/images/pro2.webp"
 responsabilities:
   - "Design and implement professional portfolio website"
   - "Create responsive layout"
@@ -20,28 +20,14 @@ technologies:
   - "AiOutlineHtml5"
   - "BsFiletypeCss"
   - "BiLogoTailwindCss"
-imageP: "/images/projects/cerdo.png"
-imageBR: "/images/projects/cerdo.png"
-imageBL: "/images/projects/cerdo.png"
+imageP: "/images/Protein3.webp"
+imageBR: "/images/Protein4.webp"
+imageBL: "/images/Protein5.webp"
+challenge: "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it."
+outcome: "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube."
+    
 ---
 
 This was one of my first projects, created when I was beginning my journey in programming and web development. The purpose was to apply my learning in practice and challenge myself to design and deploy a web page using GitHub Pages.
 
 The project served as a practical exercise in web development fundamentals and helped me understand the complete process of creating and deploying a website.
-
-## Challenge
-
-As my first major web development project, I faced several challenges including:
-- Learning and implementing responsive design principles
-- Understanding and applying CSS animations effectively
-- Managing project structure and organization
-- Learning the deployment process with GitHub Pages
-- Implementing clean and maintainable code practices
-
-## Outcome
-
-Successfully created and deployed my first portfolio website, which served as a valuable learning experience in web development. The project helped me:
-- Gain practical experience with React and modern web technologies
-- Understand the importance of responsive design
-- Learn about deployment and hosting
-- Develop problem-solving skills in web development

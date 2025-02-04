@@ -1,13 +1,13 @@
 ---
 title: "Images to Code with AI"
 category: "Web"
-imageC: "/images/projects/wiima.png"
+imageC: "/images/imagetocode0.webp"
 href: "https://github.com/DereckAn/ima2code.git"
 details:
   - "In Progress"
   - "Personal Project"
   - "OpenAI - API"
-imageR: "/images/projects/wilink.png"
+imageR: "/images/imagetocode1.webp"
 responsabilities:
   - "Send request to the OpenAI API"
   - "Build the web page"
@@ -20,19 +20,15 @@ technologies:
   - "BiLogoTailwindCss"
   - "BsGit"
   - "BiLogoTypescript"
-imageP: "/images/projects/cerdo.png"
-imageBR: "/images/projects/cerdo.png"
-imageBL: "/images/projects/cerdo.png"
+imageP: "/images/cerdo.webp"
+imageBR: "/images/cerdo.webp"
+imageBL: "/images/cerdo.webp"
+challenge: "The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way. Also, trying to adapt the prompt was a little tricky beacuse sometimes I did not get the desire result."
+outcome: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?"
+    
 ---
 
 This project came up because I need a way to create web components in a faster way and focus on other things. For this I was learning how to use the OpenAI API and how to send requests and receive information from the API.
 
 My focus was to use the API but in the future I will take care of making the site more presentable and with more functionalities.
 
-## Challenge
-
-The main challenge was to fetch the data from GPT APIs and mold it to display it in a user friendly way. Also, trying to adapt the prompt was a little tricky because sometimes I did not get the desired result.
-
-## Outcome
-
-The project successfully demonstrates the integration of AI capabilities into web development workflows, creating a tool that can help developers speed up their component creation process. The implementation provides a solid foundation for future enhancements and additional features.

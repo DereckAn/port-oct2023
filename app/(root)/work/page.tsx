@@ -1,15 +1,15 @@
 import Container from "@/components/ui/container";
 import ListFeaturedWork from "@/components/ui/list-featured-work";
 import Title from "@/components/ui/title";
+import { getMarkdownFiles } from "@/utils/projects";
 
-const WorkPage = () => {
+export default async function WorkPage() {
+  const projects = await getMarkdownFiles();
+
   return (
     <Container>
       <Title title={"Work"} />
-      {/* // note lo hice componente porque lo voy a usar en la pagina de work */}
-      <ListFeaturedWork />
+      <ListFeaturedWork projects={projects} />
     </Container>
   );
-};
-
-export default WorkPage;
+}

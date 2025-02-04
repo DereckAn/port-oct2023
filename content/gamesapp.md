@@ -1,13 +1,13 @@
 ---
 title: "Games App"
 category: "Mobile"
-imageC: "/images/projects/menugame.png"
+imageC: "/images/gameapp0.webp"
 href: "https://github.com/DereckAn/games_app.git"
 details:
   - "In Progress"
   - "Personal Project"
   - "Flutter - Dart"
-imageR: "/images/projects/snakescre.png"
+imageR: "/images/gameapp1.webp"
 responsabilities:
   - "Implement the logic of each game"
   - "Build the mobile app"
@@ -16,21 +16,13 @@ responsabilities:
 technologies:
   - "BsGit"
   - "BiLogoFlutter"
-imageP: "/images/projects/tetris.png"
-imageBR: "/images/projects/changecolor.png"
-imageBL: "/images/projects/cerdo.png"
+imageP: "/images/gameapp2.webp"
+imageBR: "/images/gameapp3.webp"
+imageBL: "/images/gameapp2.webp"
+outcome: "It is not complete yet, but it's fun to face and overcome the challenges. My programming logic has improved, and I have a clearer idea of making full stack applications."
+challenge: "The logic of each game. There were times where I was litteraly stuck trying to implement the logic correctly. I watched some vides, used chatgpt, used stackoverflow to complete what I wanted. Another big challenge was setting the server for multiplayer games. It was my frist time doing that. I needed to learn a little of mongoDB, and how to connect my database with the game."
+    
 ---
 
 With this project I wanted to put my programming logic into practice. And I'm really putting them into practice! My goal is to recreate each mobile game and then improve it or add a few extra features and improvements.
-
 I also want to modify the games to be multiplayer and playable online.
-
-## Challenge
-
-The logic of each game presented unique challenges. There were times where I was literally stuck trying to implement the logic correctly. I leveraged various resources including video tutorials, ChatGPT, and Stack Overflow to overcome these challenges.
-
-Setting up the server for multiplayer games was another significant challenge, as it was my first time implementing such functionality. This required learning MongoDB and understanding how to properly connect the database with the game system.
-
-## Outcome
-
-While the project is still in progress, it has been an invaluable learning experience. My programming logic has significantly improved, and I've gained a clearer understanding of full-stack application development. The challenges faced have helped me grow as a developer and better understand complex game mechanics and multiplayer implementations.

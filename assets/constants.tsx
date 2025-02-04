@@ -1,47 +1,14 @@
 import {
   L,
-  aa,
-  admpro0,
-  admpro1,
-  admpro2,
-  admpro3,
-  admpro4,
-  alle0,
-  alle1,
-  alle2,
-  alle3,
-  alle4,
   cerdo,
   cerdoH,
   cerdoM,
-  changecolor,
-  chat,
   code_mc,
-  dd,
-  dessertshop,
   ensign,
-  expence,
-  ff,
-  landing,
   lds,
-  math,
-  menugame,
   mustang,
-  oldport2,
-  port2,
-  pro1,
-  pro2,
-  pro3,
-  pro4,
-  pro5,
   script_minec,
   smile2,
-  snakescre,
-  spotify,
-  ss,
-  tetris,
-  wiima,
-  wilink,
   youdown,
   youdown2,
 } from "@/assets/images";
@@ -67,13 +34,7 @@ import {
   RiUserLine,
   RiYoutubeLine,
 } from "react-icons/ri";
-import {
-  SiDart,
-  SiFastapi,
-  SiFirebase,
-  SiGnubash,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiDart, SiFastapi, SiGnubash, SiNextdotjs } from "react-icons/si";
 
 export const information = {
   name: "Dereck Angeles",
@@ -139,442 +100,444 @@ export const routes = [
 ];
 
 export const featureworkpagefull = [
-  {
-    title: "Alleviare",
-    category: "Web",
-    imageC: alle0,
-    href: "https://alleviare.vercel.app/",
-    description: [
-      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
-            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
-      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
-    ],
-    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
-    imageR: alle1,
-    responsabiliteies: [
-      `Try to make the page as close to the original as possible`,
-      `Investigate how the supabase api works`,
-      `Save the information of the songs in the database`,
-      ` Download songs from youtube in the most optimal way possible`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-      BiLogoPython,
-      RiSupabaseLine,
-    ],
-    imageP: alle2,
-    challenge:
-      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
-    outcome:
-      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
-    imageBR: alle3,
-    imageBL: alle4,
-  },
-  {
-    title: "Protein House Admin Page",
-    category: "Web",
-    imageC: admpro0,
-    href: "https://dereckan.com/",
-    description: [
-      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
-            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
-      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
-    ],
-    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
-    imageR: admpro1,
-    responsabiliteies: [
-      `Try to make the page as close to the original as possible`,
-      `Investigate how the supabase api works`,
-      `Save the information of the songs in the database`,
-      ` Download songs from youtube in the most optimal way possible`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-      BiLogoPython,
-      RiSupabaseLine,
-    ],
-    imageP: admpro2,
-    challenge:
-      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
-    outcome:
-      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
-    imageBR: admpro3,
-    imageBL: admpro4,
-  },
-  {
-    title: "Protein House Page",
-    category: "Web",
-    imageC: pro1,
-    href: "https://theproteinhousee.com/",
-    description: [
-      `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
-            Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
-      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
-    ],
-    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
-    imageR: pro2,
-    responsabiliteies: [
-      `Try to make the page as close to the original as possible`,
-      `Investigate how the supabase api works`,
-      `Save the information of the songs in the database`,
-      ` Download songs from youtube in the most optimal way possible`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-      BiLogoPython,
-      RiSupabaseLine,
-    ],
-    imageP: pro3,
-    challenge:
-      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
-    outcome:
-      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
-    imageBR: pro4,
-    imageBL: pro5,
-  },
-  {
-    title: "Games App",
-    category: "Mobile",
-    imageC: menugame,
-    href: "https://github.com/DereckAn/games_app.git",
-    description: [
-      `With this project I wanted to put my programming logic into practice. And I'm really putting them into practice! My goal is to recreate each mobile game and then improve it or add a few extra features and improvements.
-       I also want to modify the games to be multiplayer and playable online.`,
-    ],
-    details: ["In Progress", "Personal Project", "Flutter - Dart"],
-    imageR: snakescre,
-    responsabiliteies: [
-      `Implement the logic of each game`,
-      `Build the mobile app`,
-      `Find a way to adapt the games to be multiplayer`,
-      `Adding new features to each game`,
-    ],
-    technologies: [BsGit, BiLogoFlutter],
-    imageP: tetris,
-    challenge:
-      "The logic of each game. There were times where I was litteraly stuck trying to implement the logic correctly. I watched some vides, used chatgpt, used stackoverflow to complete what I wanted. Another big challenge was setting the server for multiplayer games. It was my frist time doing that. I needed to learn a little of mongoDB, and how to connect my database with the game.",
-    outcome:
-      "It is not complete yet, but it's fun to face and overcome the challenges. My programming logic has improved, and I have a clearer idea of making full stack applications.",
-    imageBR: changecolor,
-    imageBL: cerdo,
-  },
-  {
-    title: "Images to Code with AI",
-    category: "Web",
-    imageC: wiima,
-    href: "https://github.com/DereckAn/ima2code.git",
-    description: [
-      `This project came up because I need a way to create web components in a faster way and focus on other things. For this I was learning how to use the OpenAI API and how to send requests and receive information from the API.
-      from the API. My focus was to use the API but in the future I will take care of making the site more presentable. And with more functionalities.`,
-    ],
-    details: ["In Progress", "Personal Project", "OpenAI - API"],
-    imageR: wilink,
-    responsabiliteies: [
-      `Send request to the OpenAI API`,
-      `Build the web page`,
-      `Display the API information in an understandable way`,
-      `Enter the prompt engineering to improve the quality of the information I receive from the API`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-    imageP: cerdo,
-    challenge: `The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way. 
-      Also, trying to adapt the prompt was a little tricky beacuse sometimes I did not get the desire result. `,
-    outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
-  {
-    title: "Portafolio",
-    category: "Web",
-    imageC: port2,
-    href: "https://github.com/DereckAn/port-oct2023",
-    description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+  //   {
+  //     title: "Alleviare",
+  //     category: "Web",
+  //     imageC: alle0,
+  //     href: "https://alleviare.vercel.app/",
+  //     description: [
+  //       `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query.
+  //             Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+  //       `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+  //     ],
+  //     details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+  //     imageR: alle1,
+  //     responsabiliteies: [
+  //       `Try to make the page as close to the original as possible`,
+  //       `Investigate how the supabase api works`,
+  //       `Save the information of the songs in the database`,
+  //       ` Download songs from youtube in the most optimal way possible`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //       BiLogoPython,
+  //       RiSupabaseLine,
+  //     ],
+  //     imageP: alle2,
+  //     challenge:
+  //       "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+  //     outcome:
+  //       "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+  //     imageBR: alle3,
+  //     imageBL: alle4,
+  //   },
+//   {
+//     title: "Protein House Admin Page",
+//     category: "Web",
+//     imageC: admpro0,
+//     href: "https://dereckan.com/",
+//     description: [
+//       `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+//             Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+//       `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+//     ],
+//     details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+//     imageR: admpro1,
+//     responsabiliteies: [
+//       `Try to make the page as close to the original as possible`,
+//       `Investigate how the supabase api works`,
+//       `Save the information of the songs in the database`,
+//       ` Download songs from youtube in the most optimal way possible`,
+//     ],
+//     technologies: [
+//       AiOutlineHtml5,
+//       BsFiletypeCss,
+//       SiNextdotjs,
+//       BiLogoTailwindCss,
+//       BsGit,
+//       BiLogoTypescript,
+//       BiLogoPython,
+//       RiSupabaseLine,
+//     ],
+//     imageP: admpro2,
+//     challenge:
+//       "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+//     outcome:
+//       "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+//     imageBR: admpro3,
+//     imageBL: admpro4,
+//   },
+//   {
+//     title: "Protein House Page",
+//     category: "Web",
+//     imageC: pro1,
+//     href: "https://theproteinhousee.com/",
+//     description: [
+//       `This project was created with the intention of having a protein house page on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
+//             Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+//       `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+//     ],
+//     details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+//     imageR: pro2,
+//     responsabiliteies: [
+//       `Try to make the page as close to the original as possible`,
+//       `Investigate how the supabase api works`,
+//       `Save the information of the songs in the database`,
+//       ` Download songs from youtube in the most optimal way possible`,
+//     ],
+//     technologies: [
+//       AiOutlineHtml5,
+//       BsFiletypeCss,
+//       SiNextdotjs,
+//       BiLogoTailwindCss,
+//       BsGit,
+//       BiLogoTypescript,
+//       BiLogoPython,
+//       RiSupabaseLine,
+//     ],
+//     imageP: pro3,
+//     challenge:
+//       "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+//     outcome:
+//       "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+//     imageBR: pro4,
+//     imageBL: pro5,
+//   },
+  //   {
+  //     title: "Games App",
+  //     category: "Mobile",
+  //     imageC: menugame,
+  //     href: "https://github.com/DereckAn/games_app.git",
+  //     description: [
+  //       `With this project I wanted to put my programming logic into practice. And I'm really putting them into practice! My goal is to recreate each mobile game and then improve it or add a few extra features and improvements.
+  //        I also want to modify the games to be multiplayer and playable online.`,
+  //     ],
+  //     details: ["In Progress", "Personal Project", "Flutter - Dart"],
+  //     imageR: snakescre,
+  //     responsabiliteies: [
+  //       `Implement the logic of each game`,
+  //       `Build the mobile app`,
+  //       `Find a way to adapt the games to be multiplayer`,
+  //       `Adding new features to each game`,
+  //     ],
+  //     technologies: [BsGit, BiLogoFlutter],
+  //     imageP: tetris,
+  //     challenge:
+  //       "The logic of each game. There were times where I was litteraly stuck trying to implement the logic correctly. I watched some vides, used chatgpt, used stackoverflow to complete what I wanted. Another big challenge was setting the server for multiplayer games. It was my frist time doing that. I needed to learn a little of mongoDB, and how to connect my database with the game.",
+  //     outcome:
+  //       "It is not complete yet, but it's fun to face and overcome the challenges. My programming logic has improved, and I have a clearer idea of making full stack applications.",
+  //     imageBR: changecolor,
+  //     imageBL: cerdo,
+  //   },
+  //   {
+  //     title: "Images to Code with AI",
+  //     category: "Web",
+  //     imageC: wiima,
+  //     href: "https://github.com/DereckAn/ima2code.git",
+  //     description: [
+  //       `This project came up because I need a way to create web components in a faster way and focus on other things. For this I was learning how to use the OpenAI API and how to send requests and receive information from the API.
+  //       from the API. My focus was to use the API but in the future I will take care of making the site more presentable. And with more functionalities.`,
+  //     ],
+  //     details: ["In Progress", "Personal Project", "OpenAI - API"],
+  //     imageR: wilink,
+  //     responsabiliteies: [
+  //       `Send request to the OpenAI API`,
+  //       `Build the web page`,
+  //       `Display the API information in an understandable way`,
+  //       `Enter the prompt engineering to improve the quality of the information I receive from the API`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //     ],
+  //     imageP: cerdo,
+  //     challenge: `The main challege was to fetch the data from GPT APIs and moldearla to diplsay it in a user friendly way.
+  //       Also, trying to adapt the prompt was a little tricky beacuse sometimes I did not get the desire result. `,
+  //     outcome:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
+  //   {
+  //     title: "Portafolio",
+  //     category: "Web",
+  //     imageC: port2,
+  //     href: "https://github.com/DereckAn/port-oct2023",
+  //     description: [
+  //       `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+  //     The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
 
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
-    ],
-    details: ["Personal Project", "Timeline: 2 weeks", "Product Design"],
-    imageR: aa,
-    responsabiliteies: [
-      `To look for a clean and attractive professional design to the public.`,
-      `Constantly update the information it contains.`,
-      `To project the information in a concise and easy to digest way.`,
-      `Optimization of the page (SEO).`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
+  //       `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+  //     In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+  //     `,
+  //     ],
+  //     details: ["Personal Project", "Timeline: 2 weeks", "Product Design"],
+  //     imageR: aa,
+  //     responsabiliteies: [
+  //       `To look for a clean and attractive professional design to the public.`,
+  //       `Constantly update the information it contains.`,
+  //       `To project the information in a concise and easy to digest way.`,
+  //       `Optimization of the page (SEO).`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //     ],
 
-    imageP: ss,
-    challenge:
-      "NextJS, being a framework with which I do not yet have a vast experience, presented several challenges during the development of this project. The management of server components and page optimization were undoubtedly the most significant hurdles I had to overcome. In addition, NextJS application path manipulation and dynamic page implementation were concepts that required considerable effort to fully grasp. Despite these challenges, I continued to learn and adapt throughout the process.",
-    outcome:
-      "Thanks to this project I was able to put into practice my knowledge of web development, and also helped me to learn new technologies such as NextJS, TailwindCSS and Typescript. It also helped me to improve my design skills and learn new design techniques.",
-    imageBR: dd,
-    imageBL: ff,
-  },
+  //     imageP: ss,
+  //     challenge:
+  //       "NextJS, being a framework with which I do not yet have a vast experience, presented several challenges during the development of this project. The management of server components and page optimization were undoubtedly the most significant hurdles I had to overcome. In addition, NextJS application path manipulation and dynamic page implementation were concepts that required considerable effort to fully grasp. Despite these challenges, I continued to learn and adapt throughout the process.",
+  //     outcome:
+  //       "Thanks to this project I was able to put into practice my knowledge of web development, and also helped me to learn new technologies such as NextJS, TailwindCSS and Typescript. It also helped me to improve my design skills and learn new design techniques.",
+  //     imageBR: dd,
+  //     imageBL: ff,
+  //   },
 
-  {
-    title: "Spotify",
-    category: "Web",
-    imageC: spotify,
-    href: "https://github.com/DereckAn/react-proj/tree/main/spotify",
-    description: [
-      `This project was created with the intention of having a music player on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query. 
-      Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
-      `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
-    ],
-    details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
-    imageR: spotify,
-    responsabiliteies: [
-      `Try to make the page as close to the original as possible`,
-      `Investigate how the supabase api works`,
-      `Save the information of the songs in the database`,
-      ` Download songs from youtube in the most optimal way possible`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-      BiLogoPython,
-      RiSupabaseLine,
-    ],
-    imageP: spotify,
-    challenge:
-      "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
-    outcome:
-      "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
-    imageBR: spotify,
-    imageBL: spotify,
-  },
+  //   {
+  //     title: "Spotify",
+  //     category: "Web",
+  //     imageC: spotify,
+  //     href: "https://github.com/DereckAn/react-proj/tree/main/spotify",
+  //     description: [
+  //       `This project was created with the intention of having a music player on the web, and at the same time learn to implement technologies such as nextjs, typescript, tailwindcss, supabase, and react-query.
+  //       Implement user authentication, and the possibility to create playlist, and add songs to the playlist, saving all the songs with their names, images and url in the supabase database.`,
+  //       `Para descargar las canciones use codigo python para descargar las canciones de youtube y `,
+  //     ],
+  //     details: ["Industry: Music", "Timeline: Still Working", "Web Development"],
+  //     imageR: spotify,
+  //     responsabiliteies: [
+  //       `Try to make the page as close to the original as possible`,
+  //       `Investigate how the supabase api works`,
+  //       `Save the information of the songs in the database`,
+  //       ` Download songs from youtube in the most optimal way possible`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //       BiLogoPython,
+  //       RiSupabaseLine,
+  //     ],
+  //     imageP: spotify,
+  //     challenge:
+  //       "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it.",
+  //     outcome:
+  //       "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube.",
+  //     imageBR: spotify,
+  //     imageBL: spotify,
+  //   },
 
-  {
-    title: "Chat App",
-    category: "Mobile",
-    imageC: chat,
-    href: "https://github.com/DereckAn/FlutterProjects/tree/main/chat_app",
-    description: [
-      `Developed an interactive chat application using Flutter for the user interface and Supabase for real-time data management. I implemented user authentication, message storage and real-time updates using Supabase Authentication and Cloud Firestore.`,
+  //   {
+  //     title: "Chat App",
+  //     category: "Mobile",
+  //     imageC: chat,
+  //     href: "https://github.com/DereckAn/FlutterProjects/tree/main/chat_app",
+  //     description: [
+  //       `Developed an interactive chat application using Flutter for the user interface and Supabase for real-time data management. I implemented user authentication, message storage and real-time updates using Supabase Authentication and Cloud Firestore.`,
 
-      `I designed and built an intuitive and engaging user interface with Flutter that allows users to send and receive messages in real-time.
-      Ensured code quality and maintainability using Flutter best practices and software design principles.`,
-    ],
-    details: ["Social Media", "Timeline: 2-3 weeks", "Mobile Development"],
-    imageR: chat,
-    responsabiliteies: [
-      `User Interface (UI) Design`,
-      `Feature Development`,
-      `Firebase Integration`,
-      `Maintenance and Updates`,
-    ],
-    technologies: [BiLogoFlutter, BsGit, SiFirebase],
-    imageP: chat,
-    challenge:
-      "The main challenge i faced with this project was to use the Firebase API and to syncornize the messages in real time. Also, testing the application was another challenge, since I had to test it on two different devices, and I just have one emulator at that time.",
-    outcome:
-      "Successfully develop a fully functional chat application with real-time messaging capabilities.",
-    imageBR: chat,
-    imageBL: chat,
-  },
+  //       `I designed and built an intuitive and engaging user interface with Flutter that allows users to send and receive messages in real-time.
+  //       Ensured code quality and maintainability using Flutter best practices and software design principles.`,
+  //     ],
+  //     details: ["Social Media", "Timeline: 2-3 weeks", "Mobile Development"],
+  //     imageR: chat,
+  //     responsabiliteies: [
+  //       `User Interface (UI) Design`,
+  //       `Feature Development`,
+  //       `Firebase Integration`,
+  //       `Maintenance and Updates`,
+  //     ],
+  //     technologies: [BiLogoFlutter, BsGit, SiFirebase],
+  //     imageP: chat,
+  //     challenge:
+  //       "The main challenge i faced with this project was to use the Firebase API and to syncornize the messages in real time. Also, testing the application was another challenge, since I had to test it on two different devices, and I just have one emulator at that time.",
+  //     outcome:
+  //       "Successfully develop a fully functional chat application with real-time messaging capabilities.",
+  //     imageBR: chat,
+  //     imageBL: chat,
+  //   },
 
-  {
-    title: "Old Portafolio",
-    category: "Web",
-    imageC: oldport2,
-    href: "https://github.com/DereckAn/portafolio.git",
-    description: [
-      `This was one of my first projects. I did it when I was starting to learn programming and web development. The purpose was to put into practice what I was learning and challenge myself to design a web page and deploy it on the internet using github pages.`,
-    ],
-    details: ["Personal Portafolio", "Timeline: 3 weeks", "Web Development"],
-    imageR: cerdo,
-    responsabiliteies: [
-      `To look for a clean and attractive professional design to the public`,
-      `Make the site responsive`,
-      `Learn how to use animations and incorporate them into my components`,
-      `Upload it to github pages`,
-    ],
-    technologies: [
-      BsGit,
-      BiLogoJavascript,
-      BiLogoReact,
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      BiLogoTailwindCss,
-    ],
-    imageP: cerdo,
-    challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
+  //   {
+  //     title: "Old Portafolio",
+  //     category: "Web",
+  //     imageC: oldport2,
+  //     href: "https://github.com/DereckAn/portafolio.git",
+  //     description: [
+  //       `This was one of my first projects. I did it when I was starting to learn programming and web development. The purpose was to put into practice what I was learning and challenge myself to design a web page and deploy it on the internet using github pages.`,
+  //     ],
+  //     details: ["Personal Portafolio", "Timeline: 3 weeks", "Web Development"],
+  //     imageR: cerdo,
+  //     responsabiliteies: [
+  //       `To look for a clean and attractive professional design to the public`,
+  //       `Make the site responsive`,
+  //       `Learn how to use animations and incorporate them into my components`,
+  //       `Upload it to github pages`,
+  //     ],
+  //     technologies: [
+  //       BsGit,
+  //       BiLogoJavascript,
+  //       BiLogoReact,
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       BiLogoTailwindCss,
+  //     ],
+  //     imageP: cerdo,
+  //     challenge:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     outcome:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
 
-  {
-    title: "Math with Python",
-    category: "Desktop",
-    imageC: math,
-    href: "https://github.com/DereckAn/practice/tree/main/Python/Math",
-    description: [
-      `This project is a series of exercises that I made to practice python and at the same time reinforce mathematics. The exercises cover topics such as algebra, calculus, trigonometry, etc. 
-      As part of the project I also had to learn how to graph data and learn how to display it in a readable and understandable way, for that I used Latex. `,
-    ],
-    details: ["Mathematics", "Latex", "Python"],
-    imageR: cerdo,
-    responsabiliteies: [
-      `Develop the integer where the data is plotted`,
-      `Find compatibility between python libraries (matplotlib, numpy, sympy, etc)`,
-      `Learn to use Latex to display the data in an understandable way`,
-    ],
-    technologies: [BiLogoPython],
-    imageP: cerdo,
-    challenge:
-      "I found interesting the syntax of latex and how it can be used to display data in an understandable way. Although it is a bit complicated, I enjoyed it a lot. I also learned a lot about the python libraries and how to update them to be compatible with each other",
-    outcome:
-      "These exercises helped me to use Python and to reinforce my knowledge of mathematics. It also helped me to learn how to use latex and to graph data in an understandable way.",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
-  {
-    title: "Landing Page",
-    category: "Web",
-    imageC: landing,
-    href: "https://github.com/DereckAn/landingpage.git",
-    description: [
-      `Este proyecto fue para poner en practica mis conocimientos en react. El proposito fue hacer una pagina web que sea responsive y que tenga un buen diseño. Quise hacer una pagina en tiempo record. Solo me di 3 dias para terminar esta pagina. `,
-      `Para terminar la pagina use componentes ya hechos de Syncfunction. `,
-    ],
-    details: ["Personal Project", "Timeline: 1 weekend", "Re-use components"],
-    imageR: cerdo,
-    responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Constantly update the information it contains`,
-      `To project the information in a concise and easy to digest way`,
-      `Optimization of the page (SEO)`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoReact,
-    ],
-    imageP: cerdo,
-    challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
-  {
-    title: "Dessert Chop",
-    category: "Desktop",
-    imageC: dessertshop,
-    href: "https://github.com/DereckAn/practice/tree/main/Java",
-    description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+  //   {
+  //     title: "Math with Python",
+  //     category: "Desktop",
+  //     imageC: math,
+  //     href: "https://github.com/DereckAn/practice/tree/main/Python/Math",
+  //     description: [
+  //       `This project is a series of exercises that I made to practice python and at the same time reinforce mathematics. The exercises cover topics such as algebra, calculus, trigonometry, etc.
+  //       As part of the project I also had to learn how to graph data and learn how to display it in a readable and understandable way, for that I used Latex. `,
+  //     ],
+  //     details: ["Mathematics", "Latex", "Python"],
+  //     imageR: cerdo,
+  //     responsabiliteies: [
+  //       `Develop the integer where the data is plotted`,
+  //       `Find compatibility between python libraries (matplotlib, numpy, sympy, etc)`,
+  //       `Learn to use Latex to display the data in an understandable way`,
+  //     ],
+  //     technologies: [BiLogoPython],
+  //     imageP: cerdo,
+  //     challenge:
+  //       "I found interesting the syntax of latex and how it can be used to display data in an understandable way. Although it is a bit complicated, I enjoyed it a lot. I also learned a lot about the python libraries and how to update them to be compatible with each other",
+  //     outcome:
+  //       "These exercises helped me to use Python and to reinforce my knowledge of mathematics. It also helped me to learn how to use latex and to graph data in an understandable way.",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
 
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
-    ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
-    imageR: cerdo,
-    responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-    imageP: cerdo,
-    challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
-  {
-    title: "Expence Tracker",
-    category: "Mobile",
-    imageC: expence,
-    href: "https://github.com/DereckAn/FlutterProjects/tree/main/expences020",
-    description: [
-      `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
-    The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+  //   {
+  //     title: "Landing Page",
+  //     category: "Web",
+  //     imageC: landing,
+  //     href: "https://github.com/DereckAn/landingpage.git",
+  //     description: [
+  //       `Este proyecto fue para poner en practica mis conocimientos en react. El proposito fue hacer una pagina web que sea responsive y que tenga un buen diseño. Quise hacer una pagina en tiempo record. Solo me di 3 dias para terminar esta pagina. `,
+  //       `Para terminar la pagina use componentes ya hechos de Syncfunction. `,
+  //     ],
+  //     details: ["Personal Project", "Timeline: 1 weekend", "Re-use components"],
+  //     imageR: cerdo,
+  //     responsabiliteies: [
+  //       `Buscar un diseño profesional limpio y atractivo al público`,
+  //       `Constantly update the information it contains`,
+  //       `To project the information in a concise and easy to digest way`,
+  //       `Optimization of the page (SEO)`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoReact,
+  //     ],
+  //     imageP: cerdo,
+  //     challenge:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     outcome:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
 
-      `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
-    In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
-    `,
-    ],
-    details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
-    imageR: cerdo,
-    responsabiliteies: [
-      `Buscar un diseño profesional limpio y atractivo al público`,
-      `Actualizar constantemente la información que este contiene`,
-      `Proyectar la información de manera concisa y fácil de digerir.`,
-      `Optimización de la página. (SEO)`,
-    ],
-    technologies: [
-      AiOutlineHtml5,
-      BsFiletypeCss,
-      SiNextdotjs,
-      BiLogoTailwindCss,
-      BsGit,
-      BiLogoTypescript,
-    ],
-    imageP: cerdo,
-    challenge:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    outcome:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
-    imageBR: cerdo,
-    imageBL: cerdo,
-  },
+  //   {
+  //     title: "Dessert Chop",
+  //     category: "Desktop",
+  //     imageC: dessertshop,
+  //     href: "https://github.com/DereckAn/practice/tree/main/Java",
+  //     description: [
+  //       `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+  //     The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+  //       `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+  //     In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+  //     `,
+  //     ],
+  //     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+  //     imageR: cerdo,
+  //     responsabiliteies: [
+  //       `Buscar un diseño profesional limpio y atractivo al público`,
+  //       `Actualizar constantemente la información que este contiene`,
+  //       `Proyectar la información de manera concisa y fácil de digerir.`,
+  //       `Optimización de la página. (SEO)`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //     ],
+  //     imageP: cerdo,
+  //     challenge:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     outcome:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
+  //   {
+  //     title: "Expence Tracker",
+  //     category: "Mobile",
+  //     imageC: expence,
+  //     href: "https://github.com/DereckAn/FlutterProjects/tree/main/expences020",
+  //     description: [
+  //       `This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development.
+  //     The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
+
+  //       `In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+  //     In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.
+  //     `,
+  //     ],
+  //     details: ["Industry: Blogging", "Timeline: 2 weeks", "Product Design"],
+  //     imageR: cerdo,
+  //     responsabiliteies: [
+  //       `Buscar un diseño profesional limpio y atractivo al público`,
+  //       `Actualizar constantemente la información que este contiene`,
+  //       `Proyectar la información de manera concisa y fácil de digerir.`,
+  //       `Optimización de la página. (SEO)`,
+  //     ],
+  //     technologies: [
+  //       AiOutlineHtml5,
+  //       BsFiletypeCss,
+  //       SiNextdotjs,
+  //       BiLogoTailwindCss,
+  //       BsGit,
+  //       BiLogoTypescript,
+  //     ],
+  //     imageP: cerdo,
+  //     challenge:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     outcome:
+  //       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?",
+  //     imageBR: cerdo,
+  //     imageBL: cerdo,
+  //   },
 ];
 
 export const testimonials = [

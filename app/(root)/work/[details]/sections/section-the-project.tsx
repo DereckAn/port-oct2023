@@ -5,12 +5,12 @@ import Image, { StaticImageData } from "next/image";
 interface SectionTheProjectProps {
   challenge: string;
   outcome: string;
-  imageP: StaticImageData;
-  imageBR: StaticImageData;
-  imageBL: StaticImageData;
+  imageP: StaticImageData | string;
+  imageBR: StaticImageData | string;
+  imageBL: StaticImageData | string;
 }
 
-const ImageComponent = ({ src }: { src: StaticImageData }) => (
+const ImageComponent = ({ src }: { src: StaticImageData | string }) => (
   <div className="relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl ">
     <Image
       src={src}

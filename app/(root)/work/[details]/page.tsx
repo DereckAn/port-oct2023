@@ -14,9 +14,11 @@ export default async function DetailsWorkPage({
   const postData = markdownFiles.find(
     (file) => encodeURIComponent(file.title) === params.details
   );
+
   if (!postData) {
     return <div>Post not found</div>;
   }
+
   return (
     <main>
       <SectionHeader
@@ -28,7 +30,7 @@ export default async function DetailsWorkPage({
       />
       <SectionMyRole
         imageR={postData.imageR}
-        responsabiliteies={postData.responsabiliteies}
+        responsabiliteies={postData.responsabilities}
         technologies={postData.technologies}
       />
       <SectionTheProject

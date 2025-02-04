@@ -3,12 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Badge from "./badge";
 
-// interface CardFeaturedProps {
-//     imageC: StaticImageData;
-//     category: string;
-//     title: string;
-// }
-
 interface CardFeaturedProps {
   project: MarkdownData;
 }
@@ -24,6 +18,7 @@ const CardFeatured = ({ project }: CardFeaturedProps) => {
           className="object-cover rounded-xl group-hover:opacity-80 group-hover:scale-110 transition-all duration-300 ease-in-out"
           sizes="100%"
           placeholder="blur"
+          blurDataURL="/images/blur.webp"
           loading="lazy"
         />
       </div>

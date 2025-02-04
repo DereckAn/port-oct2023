@@ -22,7 +22,7 @@ export default async function Post({ params }: PostProps) {
     <div className="max-w-4xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">{postData.title}</h1>
       <img src={postData.imageC} alt={postData.title} className="w-full h-64 object-cover mb-4" />
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div dangerouslySetInnerHTML={{ __html: postData.content }} />
     </div>
   );
 }

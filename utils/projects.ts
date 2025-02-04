@@ -1,19 +1,28 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+// 'use server';
 
-const contentDirectory = path.join(process.cwd(), 'content');
+import fs from "fs";
+import matter from "gray-matter";
+import path from "path";
+import { remark } from "remark";
+import html from "remark-html";
+
+const contentDirectory = path.join(process.cwd(), "content");
 export interface MarkdownData {
+  id: string;
   title: string;
   category: string;
   imageC: string;
   href: string;
   details: string[];
+  imageR: string;
   responsabilities: string[];
   technologies: string[];
-  contentHtml: string;
+  imageP: string;
+  imageBR: string;
+  imageBL: string;
+  challenge: string;
+  outcome: string;
+  content: string; // This will contain the markdown content after the frontmatter
 }
 
 export async function getMarkdownFiles(): Promise<MarkdownData[]> {
@@ -21,7 +30,7 @@ export async function getMarkdownFiles(): Promise<MarkdownData[]> {
   const allPostsData: MarkdownData[] = await Promise.all(
     fileNames.map(async (fileName) => {
       const fullPath = path.join(contentDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const fileContents = fs.readFileSync(fullPath, "utf8");
 
       // Parsear el frontmatter
       const matterResult = matter(fileContents);
@@ -33,6 +42,7 @@ export async function getMarkdownFiles(): Promise<MarkdownData[]> {
       const contentHtml = processedContent.toString();
 
       return {
+        id: matterResult.data.id,
         title: matterResult.data.title,
         category: matterResult.data.category,
         imageC: matterResult.data.imageC,
@@ -41,6 +51,13 @@ export async function getMarkdownFiles(): Promise<MarkdownData[]> {
         responsabilities: matterResult.data.responsabilities,
         technologies: matterResult.data.technologies,
         contentHtml,
+        imageR: matterResult.data.imageR,
+        imageP: matterResult.data.imageP,
+        imageBR: matterResult.data.imageBR,
+        imageBL: matterResult.data.imageBL,
+        challenge: matterResult.data.challenge,
+        outcome: matterResult.data.outcome,
+        content: matterResult.content,
       };
     })
   );

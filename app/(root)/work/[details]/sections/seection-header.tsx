@@ -47,7 +47,7 @@ const SectionHeader = ({
             className="object-cover rounded-xl "
             alt={"imagenT"}
             sizes="100%"
-            placeholder="blur"
+            // placeholder="blur"
             loading="lazy"
           />
         </div>

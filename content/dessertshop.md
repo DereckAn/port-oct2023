@@ -1,13 +1,13 @@
 ---
 title: "Dessert Shop"
 category: "Desktop"
-imageC: "/images/projects/dessertshop.png"
+imageC: "/images/dessertshop0.webp"
 href: "https://github.com/DereckAn/practice/tree/main/Java"
 details:
   - "Academic Project"
   - "Java Development"
   - "Desktop Application"
-imageR: "/images/projects/cerdo.png"
+imageR: "/images/cerdo.webp"
 responsabilities:
   - "Design and implement the user interface"
   - "Create a robust database structure"
@@ -17,17 +17,16 @@ technologies:
   - "BiLogoJava"
   - "BsFiletypeSql"
   - "BsGit"
-imageP: "/images/projects/cerdo.png"
-imageBR: "/images/projects/cerdo.png"
-imageBL: "/images/projects/cerdo.png"
+imageP: "/images/cerdo.webp"
+imageBR: "/images/cerdo.webp"
+imageBL: "/images/cerdo.webp"
+challenge: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?"
+outcome: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci accusantium sapiente debitis porro doloribus numquam, autem quasi maxime placeat aperiam et aliquam ab, reprehenderit laborum atque optio aut quibusdam voluptate?"
+    
 ---
 
-A desktop application developed in Java for managing a dessert shop's operations. The system includes features for inventory management, order processing, and basic reporting capabilities. This project was developed as part of my academic coursework to demonstrate proficiency in Java programming and database management.
+This project is a personal project. It is a testament to my skills and competencies as a web developer. It was built using cutting-edge technologies such as NextJS, TailwindCSS and Typescript, demonstrating my proficiency in these tools and my ability to keep up with current trends in web development. 
+The main goal of this project was to put into practice and demonstrate a variety of technical skills. Among them, Server Side Rendering (SSR), Search Engine Optimization (SEO) and Responsive Design.`,
 
-## Challenge
-
-The main challenges included implementing a robust database structure that could handle various types of desserts and their ingredients, creating an intuitive user interface for staff members, and ensuring proper data validation throughout the application. Managing the relationship between orders, inventory, and customer data required careful planning and implementation.
-
-## Outcome
-
-Successfully created a functional desktop application that demonstrates solid understanding of Java programming principles, database management, and user interface design. The project helped strengthen my skills in object-oriented programming and database integration while providing practical experience in developing business applications.
+In addition, this project was intended to replace my old portfolio, which was developed with ReactJS. While ReactJS is a powerful tool in its own right, the decision to migrate to NextJS for this project represents my commitment to continuous improvement and adaptability, two essential qualities for any successful web developer.
+In short, this project is not only a showcase of my technical skills, but also a representation of my passion for web development and my commitment to excellence in my work. I'm excited to share it with the world and hope it serves as an inspiring example for other emerging developers.

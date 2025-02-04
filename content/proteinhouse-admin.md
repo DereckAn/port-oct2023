@@ -1,13 +1,13 @@
 ---
 title: "Protein House Admin Page"
 category: "Web"
-imageC: "/images/projects/admpro0.png"
+imageC: "/images/adminpro0.webp"
 href: "https://theproteinhousee.com/"
 details:
   - "Industry: Food Service"
   - "Timeline: Still Working"
   - "Web Development"
-imageR: "/images/projects/admpro1.png"
+imageR: "/images/adminpro1.webp"
 responsabilities:
   - "Design and implement admin dashboard interface"
   - "Create secure authentication system"
@@ -22,17 +22,12 @@ technologies:
   - "BiLogoTypescript"
   - "BiLogoPython"
   - "RiSupabaseLine"
-imageP: "/images/projects/admpro2.png"
-imageBR: "/images/projects/admpro3.png"
-imageBL: "/images/projects/admpro4.png"
+imageP: "/images/adminpro2.webp"
+imageBR: "/images/adminpro3.webp"
+imageBL: "/images/adminpro4.webp"
+challenge: "The difficulties I faced when tackling this project were the implementation of the supabase api, and the implementation of user authentication, as I had no experience with these technologies, but thanks to the supabase documentation and the nextjs documentation I was able to implement them successfully. Also the downloading of the songs was a challenge since I didn't know how to do it."
+outcome: "Thanks to this project I was able to learn new technologies such as supabase, react-query, and nextjs. I was also able to improve my backend skills, and learn new techniques to download songs from youtube."
+    
 ---
 
 This project involves creating a comprehensive admin dashboard for Protein House, enabling efficient management of inventory, orders, and customer data. The system is built with modern web technologies to ensure security, performance, and ease of use.
-
-## Challenge
-
-The main challenges included implementing real-time data updates, ensuring secure access control, and creating an intuitive interface for staff members with varying levels of technical expertise. Integration with existing systems and maintaining data consistency across multiple locations required careful planning and execution.
-
-## Outcome
-
-The admin dashboard has significantly improved operational efficiency, reducing manual data entry and providing better insights into business operations. The system has helped streamline inventory management and order processing while providing valuable analytics for business decision-making.
