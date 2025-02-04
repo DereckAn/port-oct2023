@@ -1,54 +1,49 @@
-import fs from "fs";
-import matter from "gray-matter";
-import path from "path";
-import * as Icons from "react-icons";
-import { IconType } from "react-icons";
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
 
-interface ProjectFrontmatter {
+const contentDirectory = path.join(process.cwd(), 'content');
+export interface MarkdownData {
   title: string;
   category: string;
   imageC: string;
   href: string;
   details: string[];
-  imageR: string;
   responsabilities: string[];
-  technologies: (string | IconType)[];
-  imageP: string;
-  imageBR: string;
-  imageBL: string;
+  technologies: string[];
+  contentHtml: string;
 }
 
-export interface Project extends ProjectFrontmatter {
-  slug: string;
-  content: string;
-  technologies: IconType[];
-}
+export async function getMarkdownFiles(): Promise<MarkdownData[]> {
+  const fileNames = fs.readdirSync(contentDirectory);
+  const allPostsData: MarkdownData[] = await Promise.all(
+    fileNames.map(async (fileName) => {
+      const fullPath = path.join(contentDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-export function getProjects(): Project[] {
-  const projectsDirectory = path.join(process.cwd(), "content/projects");
-  const filenames = fs.readdirSync(projectsDirectory);
+      // Parsear el frontmatter
+      const matterResult = matter(fileContents);
 
-  const projects = filenames.map((filename) => {
-    const slug = filename.replace(".md", "");
-    const filePath = path.join(projectsDirectory, filename);
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const { data, content } = matter(fileContents);
+      // Convertir el contenido Markdown a HTML
+      const processedContent = await remark()
+        .use(html)
+        .process(matterResult.content);
+      const contentHtml = processedContent.toString();
 
-    // Convert technology strings to actual icon components
-    const techIcons = data.technologies.map((tech: string) => (Icons as any)[tech] as IconType);
+      return {
+        title: matterResult.data.title,
+        category: matterResult.data.category,
+        imageC: matterResult.data.imageC,
+        href: matterResult.data.href,
+        details: matterResult.data.details,
+        responsabilities: matterResult.data.responsabilities,
+        technologies: matterResult.data.technologies,
+        contentHtml,
+      };
+    })
+  );
 
-    return {
-      slug,
-      content,
-      ...(data as ProjectFrontmatter),
-      technologies: techIcons,
-    };
-  });
-
-  return projects;
-}
-
-export function getProjectBySlug(slug: string): Project | undefined {
-  const projects = getProjects();
-  return projects.find((project) => project.slug === slug);
+  return allPostsData;
 }

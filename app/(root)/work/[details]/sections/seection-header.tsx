@@ -6,7 +6,7 @@ import SquareList from "@/components/ui/square-list";
 interface SectionHeaderProps {
   title: string;
   description: string[];
-  imageT: StaticImageData;
+  imageT: StaticImageData | string;
   href: string;
   details: string[];
 }
