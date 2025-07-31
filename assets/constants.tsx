@@ -132,8 +132,8 @@ export const routes = [
     icon: RiUserLine,
   },
   {
-    name: "Ventures",
-    path: "/ventures",
+    name: "Jobs",
+    path: "/jobs",
     icon: RiUserLine,
   },
   {

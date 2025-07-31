@@ -27,7 +27,7 @@ const CardBlog = ({ title, category, image, age}: CardBlogProps) => {
           loading = 'lazy'
         />
       </div>
-      <div className="space-y-2">
+      <div className="space-y-2 text-start w-full md:w-fit">
         <h5 className="text-sm uppercase font-semibold tracking-widest text-gray-500">
           {category}
         </h5>

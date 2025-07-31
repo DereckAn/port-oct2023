@@ -11,9 +11,12 @@ const BlogSection = () => {
   return (
     <section id={"Blog Section"} className="border-b border-gray-500/30">
       <Container>
-        <Title title={"Blog"} />
-        <ListBlog number={3}/>
-        <Button label="View All Posts" onClick={() => router.push("/blog")} />
+        <Title title={"Mini Projects"} />
+        <ListBlog number={6} />
+        <Button
+          label="View All Posts"
+          onClick={() => router.push("/projects")}
+        />
       </Container>
     </section>
   );

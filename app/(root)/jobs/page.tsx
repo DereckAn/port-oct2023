@@ -6,7 +6,7 @@ const VenturesPage = () => {
   return (
     <main className="border-b border-gray-500/30">
       <Container>
-        <Title title="Ventures" />
+        <Title title="Jobs" />
       </Container>
       <hr className="border-gray-500/30" />
       <Container className="py-10">
