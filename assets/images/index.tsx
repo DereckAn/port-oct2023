@@ -16,11 +16,14 @@ import cerdoM from "./cerdoM.webp";
 import changecolor from "./changecolor.webp";
 import chat from "./chat.webp";
 import code_mc from "./code_mc.webp";
+import converui from "./converui.webp";
 import dd from "./d.webp";
 import dessertshop from "./dessertshop.webp";
 import ensign from "./ensign.webp";
 import expence from "./expence.webp";
 import ff from "./f.webp";
+import installapps from "./installapps.webp";
+import installapps2 from "./installapps2.webp";
 import L from "./L.webp";
 import landing from "./landing.webp";
 import lds from "./lds.ico";
@@ -40,10 +43,12 @@ import pro4 from "./Protein4.webp";
 import pro5 from "./Protein5.webp";
 import ss from "./s.webp";
 import script_minec from "./script_minec.webp";
+import scriptsui from "./scriptsui.webp";
 import smile2 from "./smile2.webp";
 import snakescre from "./snake.webp";
 import spotify from "./spotify.webp";
 import tetris from "./tetris.webp";
+import webui from "./webui.webp";
 import wiima from "./wiima.webp";
 import wilink from "./wilink.webp";
 import youdown from "./youdown.webp";
@@ -68,11 +73,14 @@ export {
   changecolor,
   chat,
   code_mc,
+  converui,
   dd,
   dessertshop,
   ensign,
   expence,
   ff,
+  installapps,
+  installapps2,
   L,
   landing,
   lds,
@@ -92,11 +100,13 @@ export {
   pro4,
   pro5,
   script_minec,
+  scriptsui,
   smile2,
   snakescre,
   spotify,
   ss,
   tetris,
+  webui,
   wiima,
   wilink,
   youdown,

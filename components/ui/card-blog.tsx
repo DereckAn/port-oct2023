@@ -6,10 +6,9 @@ interface CardBlogProps {
   category: string;
   image: StaticImageData;
   age: string;
-  id: number;
 }
 
-const CardBlog = ({ title, category, image, age, id }: CardBlogProps) => {
+const CardBlog = ({ title, category, image, age}: CardBlogProps) => {
   return (
     <Link
       href={`./blog/${title}`}

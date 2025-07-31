@@ -17,11 +17,14 @@ import {
   changecolor,
   chat,
   code_mc,
+  converui,
   dd,
   dessertshop,
   ensign,
   expence,
   ff,
+  installapps,
+  installapps2,
   landing,
   lds,
   logo,
@@ -38,6 +41,7 @@ import {
   pro4,
   pro5,
   script_minec,
+  scriptsui,
   smile2,
   snakescre,
   spotify,
@@ -48,7 +52,6 @@ import {
   youdown,
   youdown2,
 } from "@/assets/images";
-import { title } from "process";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {
   BiLogoFlutter,
@@ -589,18 +592,18 @@ export const testimonials = [
     hobbie: "Photography",
     link: "/photogray",
   },
-  {
-    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    image: cerdo,
-    hobbie: "Reading",
-    link: "/photogray",
-  },
-  {
-    message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
-    image: cerdo,
-    hobbie: "Piano",
-    link: "/photogray",
-  },
+  //   {
+  //     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+  //     image: cerdo,
+  //     hobbie: "Reading",
+  //     link: "/photogray",
+  //   },
+  //   {
+  //     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
+  //     image: cerdo,
+  //     hobbie: "Piano",
+  //     link: "/photogray",
+  //   },
   {
     message: "lorem ipsum dolor sit amet consectetur adipisicing elit. lorem",
     image: cerdo,
@@ -651,7 +654,7 @@ export const ventures = [
     description: "Mexico City ",
     image: cerdo,
     href: "https://epra.edu.mx/",
-  }
+  },
 ];
 
 export const tecnologies = [
@@ -731,7 +734,46 @@ export const tecnologies = [
 
 export const blogs = [
   {
-    id: 1,
+    title: "Install Several apps with a command",
+    category: "Bash, Rust, Python",
+    image: installapps,
+    age: "1 month",
+    descriptions: [
+      "I wanted to install several apps on my computer and I didn't want to do it one by one, so I decided to make a script that would do it for me.",
+      "I used bash, python and rust to do it.",
+    ],
+    subtitles: ["Bash", "Python", "Rust"],
+    lista: [
+      "Install apps with a bash script",
+      "Install apps with a python script",
+      "Install apps with a rust script",
+      "Install apps with a rust script",
+      "Install apps with a rust script",
+    ],
+    images: [installapps2],
+    href: "https://github.com/DereckAn/scripts",
+  },
+  {
+    title: "Scripts with UI",
+    category: "Web Development",
+    image: scriptsui,
+    age: "2 weeks",
+    descriptions: [
+      "I had a bunch of scripts that make my life a little easer but they were all in the terminal, so I decided to make a web page so I can use them with a UI.",
+      "",
+    ],
+    subtitles: [],
+    lista: [
+      "Transform images format",
+      "Web scraping",
+      "Generate scripts",
+      "Webscraping Instagram Photos",
+      "Describe an image with AI",
+    ],
+    images: [converui],
+    href: "https://scripts-orcin.vercel.app/",
+  },
+  {
     title: "Download videos from YouTuve with python",
     category: "Python",
     image: youdown,
@@ -740,7 +782,7 @@ export const blogs = [
       "",
       "I wanted to download videos from youtube in a fast way and I didn't feel very confident using the websites.",
     ],
-    subtitles: ["Just Python Code", "Steps", "subtitulo 3"],
+    subtitles: ["Just Python Code", "Steps"],
     lista: [
       "Import the necessary libraries - pip install tkinter customtkinter pytube ",
       "Configures the GUI appearance and creates an application window with a specific size and a title.",
@@ -755,7 +797,6 @@ export const blogs = [
     href: "https://github.com/DereckAn/python-projects/blob/main/video_down.py",
   },
   {
-    id: 2,
     title: "Convert images with python",
     category: "Python",
     image: cerdo,
@@ -776,7 +817,6 @@ export const blogs = [
     href: "https://github.com/DereckAn/landingpage.git",
   },
   {
-    id: 3,
     title: "Script to Prepare for Minecraft Server",
     category: "Bash and Batch",
     image: script_minec,
@@ -797,7 +837,6 @@ export const blogs = [
     href: "https://github.com/DereckAn/minecraft.git",
   },
   {
-    id: 4,
     title: "Make the Snake Game with Python",
     category: "Python",
     image: smile2,
@@ -818,7 +857,6 @@ export const blogs = [
     href: "https://github.com/DereckAn/landingpage.git",
   },
   {
-    id: 5,
     title: "Train the flap bird with python",
     category: "Pyhton",
     image: smile2,
