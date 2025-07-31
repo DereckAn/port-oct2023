@@ -25,6 +25,8 @@ import expence from "./expence.webp";
 import ff from "./f.webp";
 import games from "./games.webp";
 import gomoku from "./gomoku.webp";
+import ia from "./ia.webp";
+import ia2 from "./ia2.webp";
 import installapps from "./installapps.webp";
 import installapps2 from "./installapps2.webp";
 import L from "./L.webp";
@@ -35,6 +37,8 @@ import maplarge from "./maplarge.png";
 import math from "./math.webp";
 import me2 from "./me2.webp";
 import menugame from "./menugame.webp";
+import mods from "./mods.webp";
+import mods2 from "./mods2.webp";
 import mustang from "./mustang.webp";
 import oldport2 from "./oldport2.webp";
 import pato from "./pato.webp";
@@ -88,6 +92,8 @@ export {
   ff,
   games,
   gomoku,
+  ia,
+  ia2,
   installapps,
   installapps2,
   L,
@@ -99,6 +105,8 @@ export {
   math,
   me2,
   menugame,
+  mods,
+  mods2,
   mustang,
   oldport2,
   pato,

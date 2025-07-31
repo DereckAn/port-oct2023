@@ -26,6 +26,8 @@ import {
   ff,
   games,
   gomoku,
+  ia,
+  ia2,
   installapps,
   installapps2,
   landing,
@@ -34,6 +36,8 @@ import {
   maplarge,
   math,
   menugame,
+  mods,
+  mods2,
   mustang,
   oldport2,
   pato,
@@ -740,13 +744,49 @@ export const tecnologies = [
 
 export const blogs = [
   {
+    title: "Train IA",
+    category: "Web Development",
+    image: ia,
+    age: "+2 months",
+    descriptions: [
+      "This projects is going to be part of other projects. I want to create/train an AI to update root code for minecraft mods. ",
+      "I like to create mods for minecraft, and I know how tidius and repetitive it can be to update the code for each new version of the game.",
+      "So I decided to create a project that will help me to update the code for each new version of the game.",
+    ],
+    subtitles: ["Coursera", "Python", "Google Colab"],
+    lista: [
+      "Create a Ui with rust to read all the code files",
+      "Identify the code that needs to be updated",
+      "Change the code to the new version of the game",
+    ],
+    images: [ia2],
+    href: "https://github.com/DereckAn/python-projects/tree/main/python/notes",
+  },
+  {
+    title: "Minecraft Mods",
+    category: "Java",
+    image: mods,
+    age: "~3 weeks",
+    descriptions: [
+      "Sinces I was a kid I liked to play Minecraft, I used to play with very old mods and I want to recreate those mods with the new versions of the game.",
+    ],
+    subtitles: ["Java", "Fabric", "Minecraft"],
+    lista: [
+      "Understannd how the game works",
+      "Create a mod that adds new items to the game",
+      "Modify the game to add new features",
+    ],
+    images: [mods2],
+    href: "https://github.com/DereckAn/curso_mainc",
+  },
+  {
     title: "Bun Server",
     category: "Websockets",
     image: railway,
     age: "~2 weeks",
     descriptions: [
-        "I wanted to display in real time the orders that the restaurant receives, so I decided to create a bun server that recive some notification from square and from the clients page and display them in real time.",
-        "Using websockets, I was able to display the orders in real time in the restaurant's kitchen.",
+      "I wanted to display in real time the orders that the restaurant receives, so I decided to create a bun server that recive some notification from square and from the clients page and display them in real time.",
+      "Using websockets, I was able to display the orders in real time in the restaurant's kitchen.",
     ],
     subtitles: ["Websockets"],
     lista: [
