@@ -24,10 +24,13 @@ import {
   ff,
   landing,
   lds,
+  logo,
+  maplarge,
   math,
   menugame,
   mustang,
   oldport2,
+  pato,
   port2,
   pro1,
   pro2,
@@ -45,6 +48,7 @@ import {
   youdown,
   youdown2,
 } from "@/assets/images";
+import { title } from "process";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {
   BiLogoFlutter,
@@ -73,6 +77,7 @@ import {
   SiFirebase,
   SiGnubash,
   SiNextdotjs,
+  SiQuarkus,
 } from "react-icons/si";
 
 export const information = {
@@ -607,9 +612,27 @@ export const testimonials = [
 export const ventures = [
   {
     title: "Full Stack Developer",
+    description: "Protein House",
+    image: logo,
+    href: "https://theproteinhousee.com/",
+  },
+  {
+    title: "Software Engineer Intern",
+    description: "MapLarge",
+    image: maplarge,
+    href: "https://www.maplarge.com/",
+  },
+  {
+    title: "Full Stack Developer",
     description: "Mustangbus Transportation",
     image: mustang,
     href: "https://www.mustangbus.com/",
+  },
+  {
+    title: "Freelance Developer",
+    description: "Mexico | USA",
+    image: pato,
+    // href: "https://oldportafolio.com/",
   },
   {
     title: "Math Teacher Assistant",
@@ -623,6 +646,12 @@ export const ventures = [
     image: lds,
     href: "https://provo.mtc.byu.edu/",
   },
+  {
+    title: "Software Developer Aprentice",
+    description: "Mexico City ",
+    image: cerdo,
+    href: "https://epra.edu.mx/",
+  }
 ];
 
 export const tecnologies = [
@@ -689,6 +718,14 @@ export const tecnologies = [
   {
     name: "Typescript",
     icon: BiLogoTypescript,
+  },
+  {
+    name: "Supabase",
+    icon: RiSupabaseLine,
+  },
+  {
+    name: "Quarkus",
+    icon: SiQuarkus,
   },
 ];
 

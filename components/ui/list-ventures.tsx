@@ -1,16 +1,17 @@
 import { ventures } from "@/assets/constants";
-import CardVentures from "./card-ventires";
 import { cn } from "@/libs/utils";
+import CardVentures from "./card-ventires";
 
 interface ListVenturesProps {
   className?: string;
+  number?: number;
 }
 
-const ListVentures = ({className} : ListVenturesProps) => {
+const ListVentures = ({ className, number }: ListVenturesProps) => {
   return (
     <div className={cn("grid grid-cols-1  gap-10 ", className)}>
-      {ventures.map((venture) => (
-        <CardVentures key={venture.title} {...venture} />
+      {ventures.slice(0, number ?? ventures.length).map((item) => (
+        <CardVentures key={item.title} {...item} />
       ))}
     </div>
   );

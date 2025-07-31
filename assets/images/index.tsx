@@ -1,3 +1,4 @@
+import logo from "../svg/Official Logo.svg";
 import aa from "./a.webp";
 import admpro0 from "./adminpro0.webp";
 import admpro1 from "./adminpro1.webp";
@@ -24,11 +25,13 @@ import L from "./L.webp";
 import landing from "./landing.webp";
 import lds from "./lds.ico";
 import lumos from "./lumos.webp";
+import maplarge from "./maplarge.png";
 import math from "./math.webp";
 import me2 from "./me2.webp";
 import menugame from "./menugame.webp";
 import mustang from "./mustang.webp";
 import oldport2 from "./oldport2.webp";
+import pato from "./pato.webp";
 import port2 from "./port2.webp";
 import pro1 from "./Protein1.webp";
 import pro2 from "./Protein2.webp";
@@ -73,12 +76,15 @@ export {
   L,
   landing,
   lds,
+  logo,
   lumos,
+  maplarge,
   math,
   me2,
   menugame,
   mustang,
   oldport2,
+  pato,
   port2,
   pro1,
   pro2,

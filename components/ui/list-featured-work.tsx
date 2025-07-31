@@ -11,7 +11,7 @@ const ListFeaturedWork = ({ number }: ListFeaturedWorkProps) => {
       {featureworkpagefull
         .slice(0, number ?? featureworkpagefull.length)
         .map((item) => (
-          <CardFeatured key={item.href} {...item} />
+          <CardFeatured key={item.title} {...item} />
         ))}
     </div>
   );

@@ -1,15 +1,15 @@
 import Image, { StaticImageData } from "next/image";
 
 interface CardVenturesProps {
-    title: string;
-    description: string;
-    image: StaticImageData;
-    href: string;
+  title: string;
+  description: string;
+  image: any;
+  href?: string;
 }
 
-const CardVentures = ({title, description, image, href} :CardVenturesProps) => {
+const CardVentures = ({ title, description, image, href }: CardVenturesProps) => {
   return (
-    <a href={href} target="_blanck" className="block group">
+    <a href={href} key={description} target="_blanck" className="block group">
       <div className="relative w-14 h-14 rounded-xl mb-5 ">
         <Image
           src={image}

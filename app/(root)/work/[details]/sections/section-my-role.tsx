@@ -31,12 +31,8 @@ const SectionMyRole = ({
             <li className="xl:max-w-2xl lg:max-w-sm">
               <h4 className="text-xl text-white font-medium ">Technologies</h4>
               <div className="flex pt-3  gap-5">
-                {technologies.map((Icon) => (
-                  <Icon
-                    key={Icon.toString}
-                    size={30}
-                    className="text-gray-500"
-                  />
+                {technologies.map((Icon, index) => (
+                  <Icon key={index} size={30} className="text-gray-500" />
                 ))}
               </div>
             </li>
