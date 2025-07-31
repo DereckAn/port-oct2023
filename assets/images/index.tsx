@@ -36,6 +36,8 @@ import mustang from "./mustang.webp";
 import oldport2 from "./oldport2.webp";
 import pato from "./pato.webp";
 import port2 from "./port2.webp";
+import presentense from "./presentense.webp";
+import presentense2 from "./presentense2.webp";
 import pro1 from "./Protein1.webp";
 import pro2 from "./Protein2.webp";
 import pro3 from "./Protein3.webp";
@@ -94,6 +96,8 @@ export {
   oldport2,
   pato,
   port2,
+  presentense,
+  presentense2,
   pro1,
   pro2,
   pro3,

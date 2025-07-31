@@ -6,7 +6,7 @@ const BlogPage = () => {
     return (
         <main className=" pb-10 border-b border-gray-500/30">
             <Container>
-                <Title title={"Blog"} />
+                <Title title={"Mini Projects"} />
                 <ListBlog />
             </Container>
         </main>

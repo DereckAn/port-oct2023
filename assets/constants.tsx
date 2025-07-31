@@ -35,6 +35,8 @@ import {
   oldport2,
   pato,
   port2,
+  presentense,
+  presentense2,
   pro1,
   pro2,
   pro3,
@@ -135,8 +137,8 @@ export const routes = [
     icon: RiUserLine,
   },
   {
-    name: "Blog",
-    path: "/blog",
+    name: "Mini Projects",
+    path: "/projects",
     icon: RiEdit2Line,
   },
   {
@@ -733,6 +735,28 @@ export const tecnologies = [
 ];
 
 export const blogs = [
+  {
+    title: "Hobbies Diary",
+    category: "Swift",
+    image: presentense,
+    age: "1 month",
+    descriptions: [
+      "My friend wanted an app where she can put all her hobbies and activities she does in a day, and she want to be able to see the progress of each hobby.",
+      "I implemented a progress tracking feature that allows users to log their activities and see their progress over time.",
+    ],
+    subtitles: ["SwiftUi"],
+    lista: [
+      "Change theme of the app",
+      "Saves the data in a local database",
+      "Add new hobbies",
+      "Not only hobbies but also activities, tasks and other things",
+      "Add a progress bar to each hobby",
+      "It is going to saves the data in the cloud (future feature)",
+      "Add a calendar to see the progress of each hobby",
+    ],
+    images: [presentense2],
+    href: "https://github.com/DereckAn/Present-Tense",
+  },
   {
     title: "Install Several apps with a command",
     category: "Bash, Rust, Python",

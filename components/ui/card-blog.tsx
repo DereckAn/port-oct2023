@@ -11,7 +11,7 @@ interface CardBlogProps {
 const CardBlog = ({ title, category, image, age}: CardBlogProps) => {
   return (
     <Link
-      href={`./blog/${title}`}
+      href={`./projects/${title}`}
       className="group flex flex-col md:flex-row gap-5 items-center"
     >
       {/* //target="_blank"  es para abrir ptra pestana  */}
