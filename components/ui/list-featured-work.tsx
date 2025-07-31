@@ -1,11 +1,12 @@
-import { featureworkpagefull } from "@/assets/constants";
+import { MarkdownData } from "@/utils/projects";
 import CardFeatured from "./card-feature";
 
 interface ListFeaturedWorkProps {
   number?: number;
+  projects?: MarkdownData[];
 }
 
-const ListFeaturedWork = ({ number }: ListFeaturedWorkProps) => {
+const ListFeaturedWork = ({ number, projects }: ListFeaturedWorkProps) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
       {featureworkpagefull

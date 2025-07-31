@@ -5,8 +5,8 @@ import Image, { StaticImageData } from "next/image";
 
 interface SectionMyRoleProps {
   responsabiliteies: string[];
-  technologies: React.ElementType[];
-  imageR: StaticImageData;
+  technologies: React.ElementType[] | string[];
+  imageR: StaticImageData | string;
 }
 
 const SectionMyRole = ({
