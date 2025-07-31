@@ -10,6 +10,7 @@ import alle1 from "./alleviare1.webp";
 import alle2 from "./alleviare2.webp";
 import alle3 from "./alleviare3.webp";
 import alle4 from "./alleviare4.webp";
+import bunserver from "./bunserver.webp";
 import cerdo from "./cerdo.webp";
 import cerdoH from "./cerdoH.webp";
 import cerdoM from "./cerdoM.webp";
@@ -22,6 +23,8 @@ import dessertshop from "./dessertshop.webp";
 import ensign from "./ensign.webp";
 import expence from "./expence.webp";
 import ff from "./f.webp";
+import games from "./games.webp";
+import gomoku from "./gomoku.webp";
 import installapps from "./installapps.webp";
 import installapps2 from "./installapps2.webp";
 import L from "./L.webp";
@@ -43,6 +46,7 @@ import pro2 from "./Protein2.webp";
 import pro3 from "./Protein3.webp";
 import pro4 from "./Protein4.webp";
 import pro5 from "./Protein5.webp";
+import railway from "./railway.webp";
 import ss from "./s.webp";
 import script_minec from "./script_minec.webp";
 import scriptsui from "./scriptsui.webp";
@@ -69,6 +73,7 @@ export {
   alle2,
   alle3,
   alle4,
+  bunserver,
   cerdo,
   cerdoH,
   cerdoM,
@@ -81,6 +86,8 @@ export {
   ensign,
   expence,
   ff,
+  games,
+  gomoku,
   installapps,
   installapps2,
   L,
@@ -103,6 +110,7 @@ export {
   pro3,
   pro4,
   pro5,
+  railway,
   script_minec,
   scriptsui,
   smile2,

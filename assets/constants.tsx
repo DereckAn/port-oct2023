@@ -11,6 +11,7 @@ import {
   alle2,
   alle3,
   alle4,
+  bunserver,
   cerdo,
   cerdoH,
   cerdoM,
@@ -23,6 +24,8 @@ import {
   ensign,
   expence,
   ff,
+  games,
+  gomoku,
   installapps,
   installapps2,
   landing,
@@ -42,6 +45,7 @@ import {
   pro3,
   pro4,
   pro5,
+  railway,
   script_minec,
   scriptsui,
   smile2,
@@ -735,6 +739,44 @@ export const tecnologies = [
 ];
 
 export const blogs = [
+  {
+    title: "Bun Server",
+    category: "Websockets",
+    image: railway,
+    age: "~2 weeks",
+    descriptions: [
+        "I wanted to display in real time the orders that the restaurant receives, so I decided to create a bun server that recive some notification from square and from the clients page and display them in real time.",
+        "Using websockets, I was able to display the orders in real time in the restaurant's kitchen.",
+    ],
+    subtitles: ["Websockets"],
+    lista: [
+      "Implemented a simple websocket server with Bun",
+      "Create a client to connect to the server",
+      "Display the orders in real time",
+      "Edit the orders state immediately",
+    ],
+    images: [bunserver],
+    href: "https://github.com/DereckAn/Websocket-Server",
+  },
+  {
+    title: "Mini games",
+    category: "Web Development",
+    image: games,
+    age: "~1 month",
+    descriptions: [
+      "My friend told me to add some games for the people that visit our restaurant so they can play while they wait for their food.",
+      "The games are simple but fun. They can be played on a mobile phone or a computer.",
+      "Users can play with their friends (local and online), alone, or against the computer.",
+    ],
+    subtitles: ["Bun server"],
+    lista: [
+      "Implemented a simple server with Bun",
+      "Create a simple AI logic to play against the brave players",
+      "Simple and Minimalist design",
+    ],
+    images: [gomoku],
+    href: "https://hausbrock.com/games",
+  },
   {
     title: "Hobbies Diary",
     category: "Swift",
